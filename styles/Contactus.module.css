@@ -1,0 +1,107 @@
+.center{
+    text-align: center;
+}
+.banner {
+    background-image: url("/assets/Rectangle 209.png");
+    padding: 50px 0px;
+    margin-top: 85px;
+    width: 100%;
+    overflow: hidden;
+
+}
+.anchor{
+    text-decoration: none;
+    color: black;
+}
+.anchor:hover{
+    color: #00378a;
+    text-decoration: none;
+}
+.form{
+    width: 100%;
+    padding: 1em;
+    font-size: 20px;
+    
+}
+.form:focus-visible{
+    color: #6a44fe;
+}
+.home{
+    text-decoration: none;
+        font-weight: 600;
+        color: black;
+  }
+.background {
+    background-image: url("/assets/background001.png");
+    max-width: 100%;
+    padding-bottom: 60px;
+    /* padding-top: 60px; */
+    background-position: center;
+}
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+.subheading{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    color: #00378a;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.heading {
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+.pera{
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+.secondHeading{
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.breadcrumb {
+    font-size: 15px;
+    text-align: start;
+
+}
+.mt_150 {
+
+    align-self: center;
+    margin-top: -150px;
+    text-align: end;
+}
+.pt_30{
+    padding: 30px 0px;
+}
+.content{
+   align-self: "center";
+ padding-bottom:"80px";
+ padding-top:"20px";  
+}
+.button_center{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.button{
+    padding: 20px;
+    border: none;
+    width: 200px;
+    color: white;
+    background-color: #6a44fe;
+    font-size: 18px;
+    font-weight: 500;
+}

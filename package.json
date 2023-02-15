@@ -9,9 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/styled": "^11.10.5",
+    "@fontsource/josefin-sans": "^4.5.12",
+    "@fontsource/poppins": "^4.5.10",
+    "@mui/icons-material": "^5.11.9",
+    "@mui/material": "^5.11.9",
     "@next/font": "13.1.6",
+    "@nextui-org/react": "^1.0.0-beta.12",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.2.3",
     "next": "13.1.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-bootstrap": "^2.7.2",
+    "react-countup": "^6.4.1",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
+    "react-lite-youtube-embed": "^2.3.52",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
   }
 }
