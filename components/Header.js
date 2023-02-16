@@ -20,7 +20,7 @@ const Header = () => {
   const [showMe, setShowMe] = useState(true);
   function toggle(){
   setShowMe(!showMe);
-     setIsOpen(false); 
+    // setIsOpen(false); 
    
     // close the menu when a link is clicked
   }
@@ -86,10 +86,11 @@ const Header = () => {
                 </div>
              
                 <div className={`${styles['dropdown-menu']} dropdown-menu`} aria-labelledby="navbarDropdown"   >
-                 {/* {showMe ? ( */}
+                {showMe ?( 
                   <Row className={`${styles['dropdown-menu-mobile']}`}>
               
                     {/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<     Communication Channels     >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */}
+                
                     <Col style={{ padding: "30px" }} >
                       <p className={styles.dropdown_heading}>Communication Channels</p>
                     
@@ -210,7 +211,7 @@ const Header = () => {
                       </Row>
 
                     </Col>
-
+                  
                     {/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<      Conversational Platform     >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */}
 
                     <Col style={{ padding: "30px" }} >
@@ -307,10 +308,7 @@ const Header = () => {
                     </Col>
                  
                   </Row>
-     
-                 {/* )
-                :
-                null} */}
+                ):null}
                 </div>
         
               </li>
