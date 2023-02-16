@@ -12,6 +12,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Card, Grid, Text, Link } from "@nextui-org/react";
 import React, { useEffect } from 'react';
+import img7 from '../public/assets/nettyfish.png';
 import AOS from 'aos'
 import "@fontsource/poppins"; // Defaults to weight 400.
 
@@ -127,6 +128,15 @@ function Home() {
     return (
         <>
             <Head>
+            <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon.png"/>
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+<link rel="manifest" href="/site.webmanifest"/>
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"/>
+<meta name="msapplication-TileColor" content="#da532c"/>
+<meta name="theme-color" content="#ffffff"/>
+            <link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="icon" type="image/gif" href="favicon/animated_favicon1.gif"/>
                 <title>Nettyfish</title>
                 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossOrigin="anonymous"></link>
                 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></link>
@@ -853,32 +863,35 @@ function Home() {
                         </div>
                     </Container>
                     <Slider {...img1}>
-                        <div className={styles.card_p}>
+                    <div className={styles.card_p}>
+                        <div className="slider-csm">
                             <Card className={`${styles['card_hover']}`} css={{ p: "$10", height: "270px" }} >
                                 <div>
                                     <Card.Header>
-                                        <Row >
-                                            <Col md={3} >
+                                        <Row className="fullwidth">
+                                            <Col xs={12} sm={12 }md={12} lg={12} xl={12}>
                                                 <Image
                                                     loader={myLoader}
-                                                    src="/assets/WhatsApp Image 2023-02-01 at 01.15.23.jpg"
+                                                    src="/assets/tvs4.jpg"
                                                     alt="Picture of the author"
-                                                    width={90}
-                                                    height={90}
-                                                    layout='responsive' />
+                                                    className="ourclient_img"
+                                                    width={0}
+                                                    height={0}
+                                                    // layout='responsive'
+                                                     />
                                             </Col>
-                                            <Col md={9}>
+                                            <Col xs={12} sm={12 }md={12} lg={12} xl={12}>
                                                 <Grid.Container>
-                                                    <Grid xs={12}>
-                                                        <Text h4 css={{ mt:"$8" }} className={`${styles['card_head_hover']}`}>
-                                                            TVS
-                                                        </Text>
+                                                    <Grid xs={12} className="justify-content-center">
+                                                    <Text  h4 css={{ mt:"$8" }} className={`${styles['card_head_hover']}` }>
+                                                        TVS
+                                                    </Text>
                                                     </Grid>
                                                 </Grid.Container>
                                             </Col>
                                         </Row>
                                     </Card.Header>
-                                    <Card.Body css={{ py: "$1" }}>
+                                    <Card.Body css={{ py: "$1" }} className="text-center">
                                         <Text size={15} weight="light" className={`${styles['card_head_hover']}`}>
                                             Genuine service in the market
                                             comparing with other vendors!
@@ -886,28 +899,33 @@ function Home() {
                                     </Card.Body>
                                 </div>
                             </Card>
-
+                            </div>
                         </div>
 
 
 
+
                         <div className={styles.card_p}>
+                        <div className="slider-csm">
                             <Card css={{ p: "$10", height: "270px" }} className={`${styles['card_hover']}`}>
                                 <Card.Header>
-                                    <Row>
-                                        <Col md={3}>
+                                    <Row className="fullwidth">
+                                        <Col xs={12} sm={12 }md={12} lg={12} xl={12}>
                                             <Image
                                                 loader={myLoader}
-                                                src="/assets/hyundai.jpg"
+                                                src="/assets/hyundai4.jpg"
                                                 alt="Picture of the author"
-                                                width={90}
-                                                height={90}
-                                                layout='responsive' />
+                                                className="ourclient_img"
+                                                width={0}
+                                                height={0}
+                                                
+                                                // layout='responsive'
+                                                 />
                                         </Col>
-                                        <Col md={9}>
+                                        <Col xs={12} sm={12 }md={12} lg={12} xl={12}>
                                             <Grid.Container>
-                                                <Grid xs={12}>
-                                                    <Text h4 css={{ mt:"$8" }} className={`${styles['card_head_hover']}`}>
+                                                <Grid xs={12} className="justify-content-center">
+                                                    <Text  h4 css={{ mt:"$8" }} className={`${styles['card_head_hover']}` }>
                                                         Hyundai
                                                     </Text>
                                                 </Grid>
@@ -915,36 +933,40 @@ function Home() {
                                         </Col>
                                     </Row>
                                 </Card.Header>
-                                <Card.Body css={{ py: "$1" }}>
-                                    <Text size={15} weight="light" className={`${styles['card_head_hover']}`}>
+                                <Card.Body css={{ py: "$1" }} className="text-center">
+                                    <Text size={15} weight="light" className={`${styles['card_head_hover ']}`}>
                                         Great to have Nettyfish for my
                                         company’s branding.
                                     </Text>
                                 </Card.Body>
 
                             </Card>
+                            </div>
                         </div>
 
 
 
                         <div className={styles.card_p}>
 
-
+                        <div className="slider-csm">
                             <Card css={{ p: "$10", height: "270px" }} className={`${styles['card_hover']}`}>
                                 <Card.Header>
-                                    <Row>
-                                        <Col md={3}>
+                                    <Row className="fullwidth">
+                                        <Col xs={12} sm={12 }md={12} lg={12} xl={12}>
                                             <Image
                                                 loader={myLoader}
-                                                src="/assets/titan.jpg"
+                                                src="/assets/titan4.jpg"
+                                                className="ourclient_img"
                                                 alt="Picture of the author"
-                                                width={90}
-                                                height={90}
-                                                layout='responsive' />
+                                                width={0}
+                                                height={0}
+                                          
+                                                // layout='responsive'
+                                                 />
                                         </Col>
-                                        <Col md={9}>
+                                        <Col xs={12} sm={12 }md={12} lg={12} xl={12}>
                                             <Grid.Container>
-                                                <Grid xs={12}>
+                                                <Grid xs={12} className="justify-content-center" >
                                                     <Text h4 css={{ mt:"$8" }} className={`${styles['card_head_hover']}`}>
                                                         Titan
                                                     </Text>
@@ -953,35 +975,37 @@ function Home() {
                                         </Col>
                                     </Row>
                                 </Card.Header>
-                                <Card.Body css={{ py: "$1" }}>
+                                <Card.Body css={{ py: "$1" }} className="text-center">
                                     <Text size={15} weight="light" className={`${styles['card_head_hover']}`}>
                                         Nettyfish provides very good customer service!
                                     </Text>
                                 </Card.Body>
 
                             </Card>
-
+                          </div>
                         </div>
 
 
                         <div className={styles.card_p}>
 
-
+                        <div className="slider-csm">
                             <Card css={{ p: "$10", height: "270px" }} className={`${styles['card_hover']}`}>
                                 <Card.Header>
-                                    <Row>
-                                        <Col md={3}>
+                                    <Row className="fullwidth">
+                                        <Col xs={12} sm={12 }md={12} lg={12} xl={12}>
                                             <Image
                                                 loader={myLoader}
-                                                src="/assets/tancem.jpg"
+                                                src="/assets/tancem4.jpg"
                                                 alt="Picture of the author"
-                                                width={90}
-                                                height={90}
-                                                layout='responsive' />
+                                                className="ourclient_img"
+                                                width={0}
+                                                height={0}
+                                                // layout='responsive' 
+                                                />
                                         </Col>
-                                        <Col md={9}>
+                                        <Col xs={12} sm={12 }md={12} lg={12} xl={12}>
                                             <Grid.Container>
-                                                <Grid xs={12}>
+                                                <Grid xs={12} className="justify-content-center">
                                                     <Text h4 css={{ mt:"$8" }} className={`${styles['card_head_hover']}`}>
                                                         TANCEM
                                                     </Text>
@@ -990,53 +1014,61 @@ function Home() {
                                         </Col>
                                     </Row>
                                 </Card.Header>
-                                <Card.Body css={{ py: "$1" }}>
+                                <Card.Body css={{ py: "$1" }} className="text-center" >
                                     <Text size={15} weight="light" className={`${styles['card_head_hover']}`}>
                                         Service of Nettyfish is very good
                                     </Text>
                                 </Card.Body>
 
                             </Card>
-
+                            </div>
                         </div>
 
 
                         <div className={styles.card_p}>
 
-
+                            <div className="slider-csm">
                             <Card css={{ p: "$10", height: "270px" }} className={`${styles['card_hover']}`}>
                                 <Card.Header>
-                                    <Row>
-                                        <Col md={3}>
+                                    <Row className="fullwidth">
+                                        <Col xs={12} sm={12 }md={12} lg={12} xl={12}>
                                             <Image
                                                 loader={myLoader}
-                                                src="/assets/gctp.jpg"
+                                                src="/assets/gctp4.jpg"
                                                 alt="Picture of the author"
-                                                width={90}
-                                                height={90}
-                                                layout='responsive' />
+                                                className="ourclient_img"
+                                                width={0}
+                                                height={0}
+                                                // layout='responsive'
+                                                 />
                                         </Col>
-                                        <Col md={9}>
+                                        <Col xs={12} sm={12 }md={12} lg={12} xl={12}>
                                             <Grid.Container>
-                                                <Grid xs={12}>
-                                                    <Text h4 css={{ lineHeight: "1.7" }} className={`${styles['card_head_hover']}`}>
-                                                        Chennai District Corporation
+                                                <Grid xs={12} className="justify-content-center gctp_text">
+                                                    <Text
+                                                    // h4  css={{ lineHeight: "1.7" }} className={`${styles['card_head_hover']}`}
+                                                    h4 css={{ mt:"$8" }} className={`${styles['card_head_hover']}`}
+                                                    >
+                                                        Chennai District Corporation
                                                     </Text>
                                                 </Grid>
                                             </Grid.Container>
                                         </Col>
                                     </Row>
                                 </Card.Header>
-                                <Card.Body css={{ py: "$1" }}>
+                                <Card.Body css={{ py: "$1" }} className="text-center gctp_para">
                                     <Text size={15} weight="light" className={`${styles['card_head_hover']}`}>
                                         Nettyfish has provided a good support in establishing
                                         the SMS system for Greater Chennai Traffic Police!
                                     </Text>
                                 </Card.Body>
-
                             </Card>
+                            </div>
 
                         </div>
+
+
+
 
 
 

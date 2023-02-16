@@ -247,7 +247,7 @@ const SMSApi = () => {
               <Col md={6} style={{ alignSelf: "center", marginBottom: 200 }}>
                 <h1 className={styles.heading}>Advantages of SMS API</h1>
                 <ul className={styles.ul1}>
-                  <h6 className={styles.home}>
+                  <h6 className={styles.home }>
                     <Image
                       loader={myLoader}
                       src="./assets/list1.gif"

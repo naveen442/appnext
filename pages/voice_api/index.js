@@ -47,7 +47,7 @@ const VoiceAPI = () => {
             <Col md={7} className="offset-2">
               <p className={styles.title}>Voice API</p>
               <p className={styles.breadcrumb}>
-              <a className={styles.home}  href="/">Home</a>{" "}
+                <a className={styles.home} href="/">Home</a>{" "}
                 &gt;&gt; Voice API
               </p>
             </Col>
@@ -75,16 +75,16 @@ const VoiceAPI = () => {
 
               <Col md={6} style={{ alignSelf: "center" }}>
                 <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                <div className={styles.mt_150}>
-              <Image
-                loader={myLoader}
-                src="assets/Voice API.png"
-                alt="Picture of the author"
-                width={380}
-                height={320}
-                priority
-              />
-            </div>
+                  <div className={styles.mt_150}>
+                    <Image
+                      loader={myLoader}
+                      src="assets/Voice API.png"
+                      alt="Picture of the author"
+                      width={380}
+                      height={320}
+                      priority
+                    />
+                  </div>
                   <p className={styles.heading}>
                     Automate your Customer Communication service with Voice API
                   </p>
@@ -178,54 +178,70 @@ const VoiceAPI = () => {
                 </p>
 
                 <ul className={styles.ul1}>
-                  <li><Image
-                                                                loader={myLoader}
-                                                                src="./assets/list1.gif"
-                                                                alt="Picture of the author"
-                                                                width={30}
-                                                                height={30} /> Our Voice APIs products for Business </li>
-                  <li> <Image
-                                                                loader={myLoader}
-                                                                src="./assets/list1.gif"
-                                                                alt="Picture of the author"
-                                                                width={30}
-                                                                height={30} /> Interactive Voice Response – IVR </li>
-                  <li> <Image
-                                                                loader={myLoader}
-                                                                src="./assets/list1.gif"
-                                                                alt="Picture of the author"
-                                                                width={30}
-                                                                height={30} /> Cloud Telephony Ai-Auto Dialer </li>
-                  <li><Image
-                                                                loader={myLoader}
-                                                                src="./assets/list1.gif"
-                                                                alt="Picture of the author"
-                                                                width={30}
-                                                                height={30} /> Missed Call Services </li>
-                  <li><Image
-                                                                loader={myLoader}
-                                                                src="./assets/list1.gif"
-                                                                alt="Picture of the author"
-                                                                width={30}
-                                                                height={30} /> Virtual Mobile Number </li>
-                  <li><Image
-                                                                loader={myLoader}
-                                                                src="./assets/list1.gif"
-                                                                alt="Picture of the author"
-                                                                width={30}
-                                                                height={30} /> Voice key Input </li>
-                  <li><Image
-                                                                loader={myLoader}
-                                                                src="./assets/list1.gif"
-                                                                alt="Picture of the author"
-                                                                width={30}
-                                                                height={30} /> Outbound Call</li>
-                  <li><Image
-                                                                loader={myLoader}
-                                                                src="./assets/list1.gif"
-                                                                alt="Picture of the author"
-                                                                width={30}
-                                                                height={30} /> Benefits of using Voice Call Solutions in business</li>
+                  <li>
+                    <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} />
+                     Our Voice APIs products for Business </li>
+                  <li> 
+                    <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> 
+                    Interactive Voice Response – IVR </li>
+                  <li> 
+                    <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> 
+                    Cloud Telephony Ai-Auto Dialer </li>
+                  <li>
+                    <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> 
+                    Missed Call Services </li>
+                  <li>
+                    <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} />
+                     Virtual Mobile Number </li>
+                  <li>
+                    <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} />
+                     Voice key Input </li>
+                  <li>
+                    <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> 
+                    Outbound Call</li>
+                  <li>
+                    <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> 
+                    Benefits of using Voice Call Solutions in business</li>
                 </ul>
 
               </Col>
@@ -385,16 +401,36 @@ const VoiceAPI = () => {
                       Solutions in India. Several companies in India offer Voice
                       API, but Nettyfish Solutions is one of the best.{" "}
                     </p>
-                    <ul>
-                      <li>
+                    <ul  className={styles.ul1}>
+                      <li> <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> 
                         We provide IVR at an affordable and competitive price.{" "}
                       </li>
-                      <li> We offer enhanced customer service. </li>
+                      <li> <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} />  We offer enhanced customer service. </li>
                       <li>
-                        {" "}
+                        {" "} <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> 
                         Our API integration services support multiple channels.{" "}
                       </li>
-                      <li> Our Voice API is user-friendly. </li>
+                      <li> <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} />  Our Voice API is user-friendly. </li>
                     </ul>
                   </Col>
                 </Row>

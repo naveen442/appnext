@@ -68,7 +68,7 @@ const Software = (props) => {
               How Nettyfish Chatbot benefits your company?
             </h1>
 
-            <ul className={styles.ul}>
+            <ul className={styles.ul1}>
               <li>
                 <Image
                   loader={myLoader}

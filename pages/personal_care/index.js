@@ -120,16 +120,16 @@ const PersonalCare = (props) => {
 </p><br/>
                                         <p className={styles.sub_content}>Personal Care assistant is available 24x7 and it handles: </p>
                                         <ol className={styles.ol}>
-                                            <li>1.    Booking appointments
+                                            <li>   Booking appointments
 </li>
                                             <li>Sharing images of new brand cars</li>
-                                            <li>2.    Getting feedback
+                                            <li>   Getting feedback
 </li>
-                                            <li>3.    Choosing services
+                                            <li>   Choosing services
 </li>
-                                            <li>4.    Offers and discounts
+                                            <li> Offers and discounts
 </li>
-                                            <li>5.    New product/service notification
+                                            <li>  New product/service notification
 
 </li>
                                         </ol>

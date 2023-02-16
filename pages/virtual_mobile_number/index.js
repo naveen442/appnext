@@ -123,13 +123,43 @@ const Mobile = (props) => {
 
 
               <h1 className={styles.heading} >Who can use SMS Shortcode/Longcode Service? </h1>
-              <ul className={styles.ul}>
-                <li>Businesses looking to get feedback from the customers</li>
-                <li>Creating Poll campaigns.</li>
-                <li>To answer Quiz questions for lucky draw </li>
-                <li>Voting through SMS for reality shows, etc.,</li>
-                <li>Surveys for marketing purposes.</li>
-                <li>Promotion of new products.</li>
+              <ul className={styles.ul1}>
+                <li><Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> Businesses looking to get feedback from the customers</li>
+                <li><Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> Creating Poll campaigns.</li>
+                <li><Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> To answer Quiz questions for lucky draw </li>
+                <li><Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> Voting through SMS for reality shows, etc.,</li>
+                <li><Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> Surveys for marketing purposes.</li>
+                <li><Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> Promotion of new products.</li>
               </ul>
 
             </Col>
@@ -155,13 +185,43 @@ const Mobile = (props) => {
                 </Col>
                 <Col md={6} style={{ alignSelf: "center"}} xs={{ offset: 0 }}>
 
-                  <ul className={styles.ul}>
-                    <li>No mobile required separately</li>
-                    <li>Access calls from everywhere</li>
-                    <li>Adaptable in navigating calls</li>
-                    <li>Keep record of your Marketing</li>
-                    <li>Missed calls can be eliminated</li>
-                    <li>Obtain better quality services</li>
+                  <ul className={styles.ul1}>
+                    <li><Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> No mobile required separately</li>
+                    <li><Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> Access calls from everywhere</li>
+                    <li><Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> Adaptable in navigating calls</li>
+                    <li><Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> Keep record of your Marketing</li>
+                    <li><Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> Missed calls can be eliminated</li>
+                    <li><Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> Obtain better quality services</li>
                   </ul>
 
                 </Col>
@@ -189,13 +249,43 @@ const Mobile = (props) => {
                 </Col>
                 <Col md={6} style={{ alignSelf: "center" }}>
 
-                  <ul className={styles.ul}>
-                    <li>No mobile required separately</li>
-                    <li>Access calls from everywhere</li>
-                    <li>Adaptable in navigating calls</li>
-                    <li>Keep record of your Marketing</li>
-                    <li>Missed calls can be eliminated</li>
-                    <li>Obtain better quality services</li>
+                  <ul className={styles.ul1}>
+                    <li><Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> No mobile required separately</li>
+                    <li><Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> Access calls from everywhere</li>
+                    <li><Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> Adaptable in navigating calls</li>
+                    <li><Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> Keep record of your Marketing</li>
+                    <li><Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> Missed calls can be eliminated</li>
+                    <li><Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> Obtain better quality services</li>
                   </ul>
 
                 </Col>

@@ -106,9 +106,13 @@
     line-height: 25px;
   }
 .ul{
-    /* list-style-type: square; */
+    list-style-type: square;
     line-height: 3;
     list-style-type: none;
+}
+.ul1{
+    list-style-type: none;
+    line-height: 3;
 }
 .ol{
     line-height: 3;

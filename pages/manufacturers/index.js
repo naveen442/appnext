@@ -26,7 +26,7 @@ const Manufacturers = (props) => {
             <Col md={7} className="offset-2">
               <p className={styles.title}>Manufacturers</p>
               <p className={styles.breadcrumb}>
-              <a className={styles.home}  href="/">Home</a>{" "}
+                <a className={styles.home} href="/">Home</a>{" "}
                 &gt;&gt; Manufacturers
               </p>
             </Col>
@@ -60,48 +60,58 @@ const Manufacturers = (props) => {
             </h1>
             <p>Nettyfish Chatbot in the Manufacturing industry has a dual role.
 
-</p><p>The first role is to help employees in receiving accurate information regarding some processes of various levels of production without time delay and to assist customer care representatives.
+            </p><p>The first role is to help employees in receiving accurate information regarding some processes of various levels of production without time delay and to assist customer care representatives.
 
-</p>
+            </p>
 
-<p>The second role is to help customers with their queries.</p>
-
-
+            <p>The second role is to help customers with their queries.</p>
 
 
-<p>Chatbot use cases :</p>
 
-            <ul className={styles.ul}>
-              <li><Image
-                                                                loader={myLoader}
-                                                                src="/assets/list1.gif"
-                                                                alt="Picture of the author"
-                                                                width={30}
-                                                                height={30} /> Supplies and inventory check</li>
-              <li><Image
-                                                                loader={myLoader}
-                                                                src="/assets/list1.gif"
-                                                                alt="Picture of the author"
-                                                                width={30}
-                                                                height={30} /> Automation of customer support</li>
-              <li><Image
-                                                                loader={myLoader}
-                                                                src="/assets/list1.gif"
-                                                                alt="Picture of the author"
-                                                                width={30}
-                                                                height={30} /> Handling floor queries</li>
-              <li><Image
-                                                                loader={myLoader}
-                                                                src="/assets/list1.gif"
-                                                                alt="Picture of the author"
-                                                                width={30}
-                                                                height={30} /> Update delivery notifications</li>
-              <li><Image
-                                                                loader={myLoader}
-                                                                src="/assets/list1.gif"
-                                                                alt="Picture of the author"
-                                                                width={30}
-                                                                height={30} /> Product recommendations</li>
+
+            <p>Chatbot use cases :</p>
+
+            <ul className={styles.ul1}>
+              <li>
+                <Image
+                loader={myLoader}
+                src="/assets/list1.gif"
+                alt="Picture of the author"
+                width={30}
+                height={30} />
+                 Supplies and inventory check</li>
+              <li>
+                <Image
+                loader={myLoader}
+                src="/assets/list1.gif"
+                alt="Picture of the author"
+                width={30}
+                height={30} /> 
+                Automation of customer support</li>
+              <li>
+                <Image
+                loader={myLoader}
+                src="/assets/list1.gif"
+                alt="Picture of the author"
+                width={30}
+                height={30} /> 
+                Handling floor queries</li>
+              <li>
+                <Image
+                loader={myLoader}
+                src="/assets/list1.gif"
+                alt="Picture of the author"
+                width={30}
+                height={30} />
+                 Update delivery notifications</li>
+              <li>
+                <Image
+                loader={myLoader}
+                src="/assets/list1.gif"
+                alt="Picture of the author"
+                width={30}
+                height={30} /> 
+                Product recommendations</li>
             </ul>
           </Col>
         </Row>
@@ -114,7 +124,7 @@ const Manufacturers = (props) => {
           <Row>
             <Col md={12}>
               <h1 className={styles.heading}>
-              Manufacturers AI - Auto WhatsApp Chatbot
+                Manufacturers AI - Auto WhatsApp Chatbot
 
               </h1>
 
@@ -141,21 +151,21 @@ const Manufacturers = (props) => {
                   <Col md={8}>
                     {/* <h2 className={styles.card_heading}>Benefits of IVR</h2> */}
                     <p>
-                    Manufacturing sectors has to deal with the business functions and customer inquires on a huge range. When the communication is manual that could lead to inefficiency and delay the turn around time to the customers.
+                      Manufacturing sectors has to deal with the business functions and customer inquires on a huge range. When the communication is manual that could lead to inefficiency and delay the turn around time to the customers.
 
 
                     </p>
                     <br />
                     <p>
-                    An AI chatbot for manufacturing sector can boost and automate this function with better effectiveness. It can be simplified a variety of tiresome tasks and attract suppliers right from the first interaction till they gets transformed into your customer.
+                      An AI chatbot for manufacturing sector can boost and automate this function with better effectiveness. It can be simplified a variety of tiresome tasks and attract suppliers right from the first interaction till they gets transformed into your customer.
 
 
                     </p>
-      
+
                     <p className={styles.sub_content}>
-                    Manufacturing assistance is available 24x7 and it handles:
+                      Manufacturing assistance is available 24x7 and it handles:
                     </p>
-                    
+
 
 
                     <ol className={styles.ol}>

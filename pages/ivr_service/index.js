@@ -107,12 +107,37 @@ const IVR = (props) => {
 
                             <h1 className={styles.heading} >Why IVR is required?</h1>
 
-                            <ul className={styles.ul}>
-                                <li>To produce more leads</li>
-                                <li>Widening your business brand image</li>
-                                <li>Strengthen representative&apos;s output</li>
-                                <li>Supervise a wide range of call capacity</li>
-                                <li>Render customized know-how</li>
+                            <ul className={styles.ul1}>
+                                <li>  <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> To produce more leads</li>
+                                <li>  <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> Widening your business brand image</li>
+                                <li>  <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> Strengthen representative&apos;s output</li>
+                                <li>  <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> Supervise a wide range of call capacity</li>
+                                <li>  <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> Render customized know-how</li>
                             </ul>
 
                         </Col>
@@ -129,12 +154,37 @@ const IVR = (props) => {
                                         <h2 className={styles.card_heading}>Benefits of IVR</h2>
                                         <p>There are various benefits to the user to have a well organized communication process with strong solutions to Get your customers on their desired channel by giving them a customised experience.</p>
 
-                                        <ul className={styles.ul}>
-                                            <li>CRM association</li>
-                                            <li>Reliability</li>
-                                            <li>Adaptable</li>
-                                            <li>Personalized</li>
-                                            <li>24*7 Support</li>
+                                        <ul className={styles.ul1}>
+                                            <li><Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> CRM association</li>
+                                            <li><Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> Reliability</li>
+                                            <li><Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> Adaptable</li>
+                                            <li><Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> Personalized</li>
+                                            <li><Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> 24*7 Support</li>
                                         </ul>
                                     </Col>
                                 </Row>

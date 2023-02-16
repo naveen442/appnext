@@ -144,12 +144,37 @@ const Enterprise = () => {
 
 
                 <h1 className={styles.heading} >Attract your customers </h1>
-                <ul className={styles.ul}>
-                  <li>Sending offers and coupons.</li>
-                  <li>Feedback </li>
-                  <li>Flash notifications</li>
-                  <li>Vouchers  </li>
-                  <li>Promoting product launches</li>
+                <ul className={styles.ul1}>
+                  <li> <Image
+                loader={myLoader}
+                src="./assets/list1.gif"
+                alt="Picture of the author"
+                width={30}
+                height={30} /> Sending offers and coupons.</li>
+                  <li> <Image
+                loader={myLoader}
+                src="./assets/list1.gif"
+                alt="Picture of the author"
+                width={30}
+                height={30} /> Feedback </li>
+                  <li> <Image
+                loader={myLoader}
+                src="./assets/list1.gif"
+                alt="Picture of the author"
+                width={30}
+                height={30} /> Flash notifications</li>
+                  <li> <Image
+                loader={myLoader}
+                src="./assets/list1.gif"
+                alt="Picture of the author"
+                width={30}
+                height={30} /> Vouchers  </li>
+                  <li> <Image
+                loader={myLoader}
+                src="./assets/list1.gif"
+                alt="Picture of the author"
+                width={30}
+                height={30} /> Promoting product launches</li>
 
                 </ul>
                 <p className={styles.notes}>Bulk SMS marketing can generate more leads by creating catchy content and attracting customers. SMS marketing lead generation has a higher conversion value than email marketing.</p>

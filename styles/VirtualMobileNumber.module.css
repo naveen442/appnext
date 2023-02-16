@@ -98,6 +98,10 @@
     list-style-type: square;
     line-height: 3;
 }
+.ul1{
+    list-style-type: none;
+    line-height: 3;
+}
 .border{
     border: 1px solid rgba(182, 182, 182, 0.457);
     padding: 20px;

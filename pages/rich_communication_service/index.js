@@ -12,7 +12,7 @@ import Script from "next/script"
 const myLoader = ({ src, width, quality }) => {
   return `/${src}?w=${width}&q=${quality || 100}`
 }
-const  RichCommunicationService = () => {
+const RichCommunicationService = () => {
 
   useEffect(() => {
     AOS.init({
@@ -36,7 +36,7 @@ const  RichCommunicationService = () => {
           <Row>
             <Col md={7} className="offset-2">
               <p className={styles.title}>Rich Communication Service</p>
-              <p className={styles.breadcrumb}><a className={styles.home}  href="/">Home</a> &gt;&gt; Rich Communication Service</p>
+              <p className={styles.breadcrumb}><a className={styles.home} href="/">Home</a> &gt;&gt; Rich Communication Service</p>
             </Col>
           </Row>
         </div>
@@ -65,20 +65,20 @@ const  RichCommunicationService = () => {
                 <div data-aos="fade-up"
                   data-aos-anchor-placement="top-bottom">
                   <div className={styles.mt_150}>
-                  <Image
-                loader={myLoader}
-                src="assets/Rich_Communication_Service.png"
-                alt="Picture of the author"
-                width={380}
-                height={260}
-              
-              />
+                    <Image
+                      loader={myLoader}
+                      src="assets/Rich_Communication_Service.png"
+                      alt="Picture of the author"
+                      width={380}
+                      height={260}
+
+                    />
                   </div>
                   <p className={styles.heading}>Rich Communication SMS</p>
                   <p>Businesses are using SMS to communicate with their customers. RCS (Rich Communication Services) is SMS with your own company branding where you can use your logo, this SMS service is interactive, and you call also showcase your products here. RCS can also be used with the default messaging app</p>
                   <br />
                   <p>Now many Businesses started to use RCS for branding and to interact easily with their customers. RCS messages are being used by millions of android users worldwide.</p>
-                  <br/>
+                  <br />
                   <p>Compared to normal text SMS, there is increase in redemption rate because of the initiation of interactions in SMS and display of images and bot with immediate response.</p>
 
                 </div>
@@ -89,7 +89,7 @@ const  RichCommunicationService = () => {
         </div>
         {/* <<<<<<<<<<<<<<<<<<<<< Third Row >>>>>>>>>>>>>>>>>>>>>>>>>> */}
 
-     
+
         {/* <<<<<<<<<<<<<<<<<<<<< Fourth Row >>>>>>>>>>>>>>>>>>>>>>>>>> */}
 
         <div >
@@ -97,7 +97,7 @@ const  RichCommunicationService = () => {
 
             <Row>
 
-              <Col md={6} style={{ alignSelf: "center",marginBottom:50}}>
+              <Col md={6} style={{ alignSelf: "center", marginBottom: 50 }}>
 
 
 
@@ -106,57 +106,65 @@ const  RichCommunicationService = () => {
 
 
 
-                <h1 className={styles.heading} >              Features of Rich Commication services are </h1>
+                <h1 className={styles.heading} >Features of Rich Commication services are </h1>
                 <ul className={styles.ul1}>
-                <li><h6 className={styles.home}><Image
-                                                                loader={myLoader}
-                                                                src="./assets/list1.gif"
-                                                                alt="Picture of the author"
-                                                                width={30}
-                                                                height={30} /> Branding on messaging app with Company Name and logo:  </h6>
+                  <li><h6 className={styles.home}>
+                    <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> 
+                    Branding on messaging app with Company Name and logo:  </h6>
                     <p>The logo appears along the side of each message in the bot auto-response</p>
-                  </li>   
+                  </li>
 
-                  <li><h6 className={styles.home}><Image
-                                                                loader={myLoader}
-                                                                src="./assets/list1.gif"
-                                                                alt="Picture of the author"
-                                                                width={30}
-                                                                height={30} /> Customer Engagement with Quick Auto-response:  </h6>
+                  <li><h6 className={styles.home}>
+                    <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> 
+                    Customer Engagement with Quick Auto-response:  </h6>
                     <p>Quick conversations are created with button to action feature
-</p>
-                  </li>  
+                    </p>
+                  </li>
 
-                  <li><h6 className={styles.home}> <Image
-                                                                loader={myLoader}
-                                                                src="./assets/list1.gif"
-                                                                alt="Picture of the author"
-                                                                width={30}
-                                                                height={30} />Blue Badge Verification:  </h6>
+                  <li><h6 className={styles.home}> 
+                  <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} />
+                    Blue Badge Verification:  </h6>
                     <p>Provides tickmark for the brand to show that it is a verified business</p>
-                  </li>  
+                  </li>
 
-                  <li><h6 className={styles.home}><Image
-                                                                loader={myLoader}
-                                                                src="./assets/list1.gif"
-                                                                alt="Picture of the author"
-                                                                width={30}
-                                                                height={30} />Carousels:
+                  <li><h6 className={styles.home}>
+                    <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} />
+                    Carousels:
 
-</h6>
-                    <p>Customer can browse, scroll and view images of products for shopping 
+                  </h6>
+                    <p>Customer can browse, scroll and view images of products for shopping
 
-</p>
-                  </li>  
-         
-         
+                    </p>
+                  </li>
+
+
 
                 </ul>
 
 
               </Col>
-              
-              <Col md={6} style={{ alignSelf: "center"}}>
+
+              <Col md={6} style={{ alignSelf: "center" }}>
                 <Image
                   loader={myLoader}
                   src="assets/rich_communication_sms_1.png"
@@ -187,7 +195,7 @@ const  RichCommunicationService = () => {
 
 
       </div>
-  
+
 
     </section>
   );

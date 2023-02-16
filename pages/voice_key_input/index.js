@@ -71,21 +71,58 @@ const VoiceKey = (props) => {
 
 
                             <h1 className={styles.heading} >Voice of Customers Techniques (VoC)</h1>
-                            <ul className={styles.ul}>
-                                <li>Customer Interviews</li>
-                                <li>Online surveys</li>
-                                <li> Online Customer Reviews</li>
+                            <ul className={styles.ul1}>
+                                <li>
+                                <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> 
+                                    Customer Interviews</li>
+                                <li>  <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> Online surveys</li>
+                                <li>  <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} />  Online Customer Reviews</li>
                            
                             </ul>
                             <p className={styles.notes}>For a ready reference please check for the sample Voice call key input image on the right side of this section</p>
                             <p className={styles.notes}>This study conceptualize and bridges the gap between customer expectation and their actual experience.  </p>
                            
                             <h1 className={styles.heading} >How it impacts your business?</h1>
-                            <ul className={styles.ul}>
-                                <li>Gives cautions in business promptly and also you can figure out possible brand setback</li>
-                                <li>Estimate new ideas and concept solutions</li>
-                                <li>Customize your products and it&apos;s feature</li>
-                                <li>Increase in cutomer withholding</li>
+                            <ul className={styles.ul1}>
+                                <li> <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} />Gives cautions in business promptly and also you can figure out possible brand setback</li>
+                                <li> <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} />Estimate new ideas and concept solutions</li>
+                                <li> <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} />Customize your products and it&apos;s feature</li>
+                                <li> <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} />Increase in cutomer withholding</li>
                            
                             </ul>
                         </Col>
@@ -124,11 +161,31 @@ const VoiceKey = (props) => {
 
                             <h1 className={styles.heading} >Voice of your customer</h1>
                             <p>By generating robust Voice of the customer program you will be able to find:</p>
-                            <ul className={styles.ul}>
-                                <li>Why your customer need you</li>
-                                <li>How can you help your customers</li>
-                                <li>What your customers are looking for</li>
-                                <li>What are their interests</li>
+                            <ul className={styles.ul1}>
+                                <li>  <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> Why your customer need you</li>
+                                <li>  <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> How can you help your customers</li>
+                                <li>  <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> What your customers are looking for</li>
+                                <li>  <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> What are their interests</li>
                            
                             </ul>
                            
@@ -146,9 +203,19 @@ const VoiceKey = (props) => {
                                         <h2 className={styles.card_heading}>VoC strategy</h2>
                                         <p>In order to understand customer preferences, problems, feedbacks and complaints.</p>
                                         <p>Identification of performance and improvisation wherever necessary in an organization</p>
-                                        <ul className={styles.ul}>
-                                <li>By measuring latest implementations</li>
-                                <li>By enhancing business outcome or product</li>
+                                        <ul className={styles.ul1}>
+                                <li> <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> By measuring latest implementations</li>
+                                <li> <Image
+                    loader={myLoader}
+                    src="./assets/list1.gif"
+                    alt="Picture of the author"
+                    width={30}
+                    height={30} /> By enhancing business outcome or product</li>
                                 
                            
                             </ul>
