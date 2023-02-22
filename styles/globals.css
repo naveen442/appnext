@@ -116,3 +116,17 @@ a {
   
   }
 }
+.overall{
+  margin-top: 110px;
+  padding-top: 100px;
+}
+
+@media(min-width:200px)and(max-width:764px) {
+  .overall{
+    margin-top:60px !important;
+
+  }
+}
+.required{
+  color: red;
+}
