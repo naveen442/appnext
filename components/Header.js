@@ -282,7 +282,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} onClick={() => window.open("http://wacto.in/", "_blank")}>WACTO - Omnichannel</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="http://wacto.in/" target="_blank">WACTO - Omnichannel</Link>
                         </Col>
                       </Row>
 
