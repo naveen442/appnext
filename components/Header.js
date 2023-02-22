@@ -1,5 +1,5 @@
 import { Container, Row, Col, Card, Button } from 'react-bootstrap'
-import React,{useState,useRef} from "react";
+import React, { useState, useRef } from "react";
 import { useRouter } from 'next/router';
 import { RiArrowDropDownLine } from 'react-icons/ri';
 import Link from "next/link";
@@ -21,37 +21,37 @@ const Header = () => {
   //  router.push("http://wacto.in/");
   // }
 
- const firstClosef = useRef();
+  const firstClosef = useRef();
 
-  function toggle(){
-  //  setShowMe(!showMe);
+  function toggle() {
+    //  setShowMe(!showMe);
     // setIsOpen(false); 
-   document.getElementsByClassName("tabclose").style.display="none";
-  
+    document.getElementsByClassName("tabclose").style.display = "none";
+
     // close the menu when a link is clicked
   }
-  function toggle1(){
+  function toggle1() {
     //  setShowMe(!showMe);
-      // setIsOpen(false); 
-     var style = document.getElementsByClassName("tabclose1")
-     style.style.display="none";
-    
-      // close the menu when a link is clicked
-    }
-    function toggle2(){
-      //  setShowMe(!showMe);
-        // setIsOpen(false); 
-       document.getElementsByClassName("tabclose2").style.display="none";
-      
-        // close the menu when a link is clicked
-      }
-      function toggle3(){
-        //  setShowMe(!showMe);
-          // setIsOpen(false); 
-         document.getElementsByClassName("tabclose6")[0].style.display="none";
-        
-          // close the menu when a link is clicked
-        }
+    // setIsOpen(false); 
+    var style = document.getElementsByClassName("tabclose1")
+    style.style.display = "none";
+
+    // close the menu when a link is clicked
+  }
+  function toggle2() {
+    //  setShowMe(!showMe);
+    // setIsOpen(false); 
+    document.getElementsByClassName("tabclose2").style.display = "none";
+
+    // close the menu when a link is clicked
+  }
+  function toggle3() {
+    //  setShowMe(!showMe);
+    // setIsOpen(false); 
+    document.getElementsByClassName("tabclose6")[0].style.display = "none";
+
+    // close the menu when a link is clicked
+  }
   return (
     <>
       <Head>
@@ -91,8 +91,8 @@ const Header = () => {
           </button>
 
           <div className="collapse navbar-collapse justify-content-end"
-            id="navbarNavDropdown01" 
-             >
+            id="navbarNavDropdown01"
+          >
 
             <ul className="navbar-nav ">
 
@@ -100,8 +100,8 @@ const Header = () => {
 
               <li className={`${styles['nav-item']} ${styles['dropdown']} nav-item dropdown`}  >
                 <div className={styles.borderBottom} >
-                  <a className={`${styles['nav-link']} ${styles['dropdown-toggle']} ${styles['text-black']} nav-link dropdown-toggle `} 
-               
+                  <a className={`${styles['nav-link']} ${styles['dropdown-toggle']} ${styles['text-black']} nav-link dropdown-toggle `}
+
                     id="navbarDropdown"
                     role="button"
                     data-toggle="dropdown"
@@ -111,18 +111,18 @@ const Header = () => {
                     <span className={styles.arrowz}><RiArrowDropDownLine /></span>
                   </a>
                 </div>
-             
+
                 <div className={`${styles['dropdown-menu']} dropdown-menu tabclose`} aria-labelledby="navbarDropdown" >
-              
+
                   <Row className={`${styles['dropdown-menu-mobile']}`}>
-              
+
                     {/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<     Communication Channels     >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */}
-                
+
                     <Col style={{ padding: "30px" }} >
                       <p className={styles.dropdown_heading}>Communication Channels</p>
-                    
+
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
-              
+
                         <Col md={1} >
                           <Image
                             loader={myLoader}
@@ -135,9 +135,9 @@ const Header = () => {
                         <Col md={10} className={`${styles['dropdown-bottom']}`}>
                           <Link className={`${styles['dropdown-item']} dropdown-item`} href="/enterprise_sms" onClick={toggle}>Enterprise SMS</Link>
                         </Col>
-                 
+
                       </Row>
-                   
+
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
                         <Col md={1}>
                           <Image
@@ -191,7 +191,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/virtual_mobile_number"  onClick={toggle}>Virtual Mobile Number</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/virtual_mobile_number" onClick={toggle}>Virtual Mobile Number</Link>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
@@ -238,7 +238,7 @@ const Header = () => {
                       </Row>
 
                     </Col>
-                  
+
                     {/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<      Conversational Platform     >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */}
 
                     <Col style={{ padding: "30px" }} >
@@ -254,7 +254,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/rich_communication_service"  onClick={toggle}>Rich Communication Service</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/rich_communication_service" onClick={toggle}>Rich Communication Service</Link>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
@@ -268,7 +268,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/whatsapp_chatbot"  onClick={toggle}>Whatsapp ChatBot</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/whatsapp_chatbot" onClick={toggle}>Whatsapp ChatBot</Link>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
@@ -282,7 +282,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/wacto" target="_blank"  onClick={toggle}>WACTO - Omnichannel</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} onClick={() => window.open("http://wacto.in/", "_blank")}>WACTO - Omnichannel</Link>
                         </Col>
                       </Row>
 
@@ -315,7 +315,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/voice_api"  onClick={toggle}>Voice API</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/voice_api" onClick={toggle}>Voice API</Link>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
@@ -329,17 +329,17 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/whatsapp_api"  onClick={toggle}> Whatsapp API</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/whatsapp_api" onClick={toggle}> Whatsapp API</Link>
                         </Col>
                       </Row>
                     </Col>
-                 
+
                   </Row>
-              
+
                 </div>
-        
+
               </li>
-           
+
               {/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<    Solutions dropdown  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */}
 
               <li className={`${styles['nav-item']} ${styles['dropdown']} nav-item dropdown`}>
@@ -371,7 +371,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/advertising_agencies"  onClick={toggle}>Advertising agencies</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/advertising_agencies" onClick={toggle}>Advertising agencies</Link>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
@@ -385,7 +385,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/automobiles_solutions"  onClick={toggle}>Automobiles</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/automobiles_solutions" onClick={toggle}>Automobiles</Link>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
@@ -399,7 +399,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/bfsi_solutions"  onClick={toggle}>BFSI</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/bfsi_solutions" onClick={toggle}>BFSI</Link>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
@@ -413,7 +413,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/community"  onClick={toggle}>Community</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/community" onClick={toggle}>Community</Link>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
@@ -427,7 +427,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/consultancy"  onClick={toggle}>Consultancy</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/consultancy" onClick={toggle}>Consultancy</Link>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
@@ -441,7 +441,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/E-commerce"  onClick={toggle}>E-commerce Solutions</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/E-commerce" onClick={toggle}>E-commerce Solutions</Link>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
@@ -455,7 +455,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/education"  onClick={toggle}>Education</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/education" onClick={toggle}>Education</Link>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
@@ -469,7 +469,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/electrical_electronics"  onClick={toggle}>Electrical & Electronics</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/electrical_electronics" onClick={toggle}>Electrical & Electronics</Link>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
@@ -483,7 +483,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/food_beverages"  onClick={toggle}>Food & Beverages</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/food_beverages" onClick={toggle}>Food & Beverages</Link>
                         </Col>
                       </Row>
                     </Col>
@@ -503,7 +503,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/healthcare"  onClick={toggle}>Healthcare</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/healthcare" onClick={toggle}>Healthcare</Link>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
@@ -517,7 +517,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/Hr"  onClick={toggle}>HR</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/Hr" onClick={toggle}>HR</Link>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
@@ -531,7 +531,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/Logistics"  onClick={toggle}>Logistics</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/Logistics" onClick={toggle}>Logistics</Link>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
@@ -545,7 +545,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/personal_care"  onClick={toggle}>Personal Care</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/personal_care" onClick={toggle}>Personal Care</Link>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
@@ -559,7 +559,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/press_media"  onClick={toggle}>Press/Media</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/press_media" onClick={toggle}>Press/Media</Link>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
@@ -573,7 +573,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/real_estate"  onClick={toggle}>Real estate</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/real_estate" onClick={toggle}>Real estate</Link>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
@@ -587,7 +587,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/retail"  onClick={toggle}>Retail</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/retail" onClick={toggle}>Retail</Link>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
@@ -601,7 +601,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/software"  onClick={toggle}> Software</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/software" onClick={toggle}> Software</Link>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
@@ -615,7 +615,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/tour_travels"  onClick={toggle}>Tours & Travels</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/tour_travels" onClick={toggle}>Tours & Travels</Link>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
@@ -629,7 +629,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/trading"  onClick={toggle}>Trading</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/trading" onClick={toggle}>Trading</Link>
                         </Col>
                       </Row>
                     </Col>
@@ -648,7 +648,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/corporate"  onClick={toggle}>Corporate</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/corporate" onClick={toggle}>Corporate</Link>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
@@ -662,7 +662,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/government"  onClick={toggle}>Government</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/government" onClick={toggle}>Government</Link>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
@@ -676,7 +676,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/manufacturers"  onClick={toggle}>Manufacturers</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/manufacturers" onClick={toggle}>Manufacturers</Link>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
@@ -690,7 +690,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/startup"  onClick={toggle}>Start-ups</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/startup" onClick={toggle}>Start-ups</Link>
                         </Col>
                       </Row>
                     </Col>
@@ -911,7 +911,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/enterprise_sms"  onClick={toggle1}>Partner With Us</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/enterprise_sms" onClick={toggle1}>Partner With Us</Link>
                         </Col>
                       </Row>
 
@@ -955,7 +955,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item `} href="/blog"  onClick={toggle2}>Blog</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item `} href="/blog" onClick={toggle2}>Blog</Link>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
@@ -969,7 +969,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item `} href="/e-manual"  onClick={toggle2}>E-manuals</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item `} href="/e-manual" onClick={toggle2}>E-manuals</Link>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
@@ -983,7 +983,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/DLT"  onClick={toggle2}>DLT</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/DLT" onClick={toggle2}>DLT</Link>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
@@ -997,7 +997,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/youtube"  onClick={toggle2}>Videos</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/youtube" onClick={toggle2}>Videos</Link>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
@@ -1011,7 +1011,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item  `} href="/faq"  onClick={toggle2}>FAQ</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item  `} href="/faq" onClick={toggle2}>FAQ</Link>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
@@ -1025,7 +1025,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item `} href="/events"  onClick={toggle2}>Event</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item `} href="/events" onClick={toggle2}>Event</Link>
                         </Col>
                       </Row>
 
@@ -1036,14 +1036,14 @@ const Header = () => {
               </li>
               <li className={`${styles['nav-item']} ${styles['dropdown']} nav-item dropdown`}>
                 <div className={styles.borderBottom}>
-                  <Link href="contactus" className={`${styles['nav-link']} ${styles['dropdown-toggle']} ${styles['text-black']} nav-link dropdown-toggle `}>
+                  <Link onClick={toggle} href="/contactus" className={`${styles['nav-link']} ${styles['dropdown-toggle']} ${styles['text-black']} nav-link dropdown-toggle `}>
                     CONTACT US
                     <span className={styles.arrowz}></span>
                   </Link>
                 </div>
               </li>
               <div style={{ alignSelf: "center", padding: "16px" }}>
-                <button className={styles.freedemo}  onClick={()=> window.open("http://wacto.in/", "_blank")}>Free Demo</button>{' '}
+                <button className={styles.freedemo} onClick={() => window.open("http://wacto.in/", "_blank")}>Free Demo</button>{' '}
               </div>
               {/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<      Become a Partner     >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */}
 
@@ -1084,7 +1084,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <a  target="_blank" className={`${styles['dropdown-item']} dropdown-item`} href="/login"  onClick={toggle3}>Login</a>
+                          <a target="_blank" className={`${styles['dropdown-item']} dropdown-item`} href="/login" onClick={toggle3}>Login</a>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px", borderBottom: "1px solid #e0e0e0" }}>
@@ -1112,7 +1112,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item `} href="/enterprise_sms"  onClick={toggle3}>Offers</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item `} href="/enterprise_sms" onClick={toggle3}>Offers</Link>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "20px", paddingBottom: "5px" }}>
@@ -1126,7 +1126,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/enterprise_sms"  onClick={toggle3}>+91 8608 666 111</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/enterprise_sms" onClick={toggle3}>+91 8608 666 111</Link>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "5px", paddingBottom: "5px" }}>
@@ -1140,7 +1140,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item `} href="/enterprise_sms"  onClick={toggle3}>support@nettyfish.com</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item `} href="/enterprise_sms" onClick={toggle3}>support@nettyfish.com</Link>
                         </Col>
                       </Row>
 
