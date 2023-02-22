@@ -16,10 +16,10 @@ const myLoader = ({ src, width, quality }) => {
 }
 
 const Header = () => {
-  const router=useRouter();
-  const wacto=()=>{
-   router.push("http://wacto.in/");
-  }
+  // const router=useRouter();
+  // const wacto=()=>{
+  //  router.push("http://wacto.in/");
+  // }
 
  const firstClosef = useRef();
 
@@ -282,7 +282,7 @@ const Header = () => {
                           />
                         </Col>
                         <Col md={10}>
-                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/wacto"  onClick={toggle}>WACTO - Omnichannel</Link>
+                          <Link className={`${styles['dropdown-item']} dropdown-item`} href="/wacto" target="_blank"  onClick={toggle}>WACTO - Omnichannel</Link>
                         </Col>
                       </Row>
 
@@ -1043,7 +1043,7 @@ const Header = () => {
                 </div>
               </li>
               <div style={{ alignSelf: "center", padding: "16px" }}>
-                <button className={styles.freedemo} onClick={wacto}>Free Demo</button>{' '}
+                <button className={styles.freedemo}  onClick={()=> window.open("http://wacto.in/", "_blank")}>Free Demo</button>{' '}
               </div>
               {/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<      Become a Partner     >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */}
 
