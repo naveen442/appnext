@@ -132,7 +132,7 @@ const Header = () => {
                             height={30}
                           />
                         </Col>
-                        <Col md={11} className={`${styles['dropdown-bottom']}`}>
+                        <Col md={10} className={`${styles['dropdown-bottom']}`}>
                           <Link className={`${styles['dropdown-item']} dropdown-item`} href="/enterprise_sms" onClick={toggle}>Enterprise SMS</Link>
                         </Col>
                  
