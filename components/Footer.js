@@ -88,6 +88,7 @@ export default function footer() {
                                     <h4>Social Connect</h4>
                                     <Row>
                                         <Col>
+                                        <a href="https://www.facebook.com/">
                                             <Image className={styles.imagecount}
                                                 loader={myLoader}
                                                 src="/assets/facebook 1.svg"
@@ -95,6 +96,8 @@ export default function footer() {
                                                 width={60}
                                                 height={60}
                                             />
+                                            </a>
+                                            <a href="https://twitter.com/">
                                             <Image className={styles.imagecount}
                                                 loader={myLoader}
                                                 src="/assets/twitter 1.svg"
@@ -102,6 +105,8 @@ export default function footer() {
                                                 width={60}
                                                 height={60}
                                             />
+                                            </a>
+                                            <a href="https://www.instagram.com/accounts/login/">
                                             <Image className={styles.imagecount}
                                                 loader={myLoader}
                                                 src="/assets/instagram 1.svg"
@@ -109,6 +114,8 @@ export default function footer() {
                                                 width={60}
                                                 height={60}
                                             />
+                                            </a>
+                                            <a href="https://www.linkedin.com/login">
                                             <Image className={styles.imagecount}
                                                 loader={myLoader}
                                                 src="/assets/linkedin 1.svg"
@@ -116,6 +123,7 @@ export default function footer() {
                                                 width={60}
                                                 height={60}
                                             />
+                                            </a>
                                         </Col>
 
                                     </Row>
