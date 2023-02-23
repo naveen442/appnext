@@ -106,7 +106,7 @@ export default function footer() {
                                                 height={60}
                                             />
                                             </a>
-                                            <a href="https://www.instagram.com/accounts/login/">
+                                            <a href="">
                                             <Image className={styles.imagecount}
                                                 loader={myLoader}
                                                 src="/assets/instagram 1.svg"

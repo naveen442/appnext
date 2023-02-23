@@ -535,7 +535,7 @@ function Home() {
                                         <div style={{ padding: "50px" }}>
                                             <Image
                                                 loader={myLoader}
-                                                src="assets/1653565620_ezgif.com-gif-maker (57).webp"
+                                                src="assets/Slider.png"
                                                 alt="Picture of the author"
                                                 height={500}
                                                 width={500}
