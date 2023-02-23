@@ -36,29 +36,32 @@ export default function footer() {
                                 <Col md={3}>
                                     <h4>Products</h4>
                                     <ul>
-                                        <li><a href='#'>Enterprise sms</a></li>
-                                        <li><a href='#'>Smart url tracking</a></li>
-                                        <li><a href='#'>Cloud telephony-ai-autodialer</a></li>
-                                        <li><a href='#'>Missed call</a></li>
-                                        <li><a href='#'>Virtual mobile number</a></li>
-                                        <li><a href='#'>Obd calls</a></li>
-                                        <li><a href='#'>Voice key input</a></li>
-                                        <li><a href='#'>Ivr</a></li>
+                                        <li><a href="/enterprise_sms">Enterprise sms</a></li>
+                                        <li><a href="/smart_url_tracking">Smart url tracking</a></li>
+                                        <li><a href="/cloud-telephony-ai-autodialer">Cloud telephony-ai-autodialer</a></li>
+                                        <li><a  href="/missed_call_service">Missed call</a></li>
+                                        <li><a href="/virtual_mobile_number">Virtual mobile number</a></li>
+                                        <li><a href="/obd_calls">Obd calls</a></li>
+                                        <li><a href="/voice_key_input">Voice key input</a></li>
+                                        <li><a href="/ivr_service">Ivr</a></li>
                                     </ul>
                                 </Col>
 
                                 <Col md={3}>
                                     <h4>Solutions</h4>
                                     <ul>
-                                        <li><a href='#'>Advertising agencies</a></li>
-                                        <li><a href='#'>Automobiles</a></li>
-                                        <li><a href='#'>Bfsi</a></li>
-                                        <li><a href='#'>Community</a></li>
-                                        <li><a href='#'>Consultancy</a></li>
-                                        <li><a href='#'>E-commerce</a></li>
-                                        <li><a href='#'>Education</a></li>
-                                        <li><a href='#'>Electrical & electronics</a></li>
-                                        <li><a href='#'>Food & beverages</a></li>
+                                        <li><a href="/advertising_agencies">Advertising agencies</a></li>
+                                        <li><a href="/automobiles_solutions">Automobiles</a></li>
+                                        <li><a href="/bfsi_solutions">Bfsi</a></li>
+                                        <li><a href="/healthcare">Healthcare</a></li>
+                                        <li><a href="/retail">Retail</a></li>
+                                        <li><a href="/E-commerce">E-commerce</a></li>
+                                        <li><a href="/education">Education</a></li>
+                                        <li><a href="/software">Software</a></li>
+                                        <li><a href="/trading">Trading</a></li>
+                                        <li><a href="/electrical_electronics">Electrical & electronics</a></li>
+                                        <li><a href="/food_beverages">Food & beverages</a></li>
+                                       
 
                                     </ul>
                                 </Col>
@@ -66,21 +69,20 @@ export default function footer() {
                                 <Col md={3}>
                                     <h4>Digital Marketing</h4>
                                     <ul>
-                                        <li><a href='#'>We sms marketing</a></li>
-                                        <li><a href='#'>WhatsApp broadcast</a></li>
-                                        <li><a href='#'>Email marketing</a></li>
-                                        <li><a href='#'>SEO</a></li>
-                                        <li><a href='#'>Instagram  </a></li>
-                                        <li><a href='#'>Linked-in</a></li>
-                                        <li><a href='#'>YouTube </a></li>
-                                        <li><a href='#'>Google ads </a></li>
+                                        <li><a href='https://www.nettyfish.in/search-engine-optimization/'>Search Engine Optimization</a></li>
+                                        <li><a href='https://www.nettyfish.in/social-media-optimization/'>Social Media Optimization </a></li>
+                                        <li><a href='https://www.nettyfish.in/ecommerce-web-development/'>Ecommerce Web Development</a></li>
+                                        <li><a href='https://www.nettyfish.in/hybrid-app-development/'>Hybrid App Development </a></li>
+                                        <li><a href='https://www.nettyfish.in/flutter-app-development/'>Flutter App Development </a></li>
+                                        <li><a href='https://www.nettyfish.in/android-app-development/'>Android App Development</a></li>
+                                        <li><a href='https://www.nettyfish.in/ios-app-development/'>IOS App Development  </a></li>
                                     </ul>
                                 </Col>
 
                                 <Col md={3}>
                                     <h4>Become a Partner</h4>
                                     <ul>
-                                        <li><a href='#'>Partner with Us</a></li>
+                                        <li><a href="/enterprise_sms">Partner with Us</a></li>
                                     </ul>
 
                                     <h4>Social Connect</h4>
