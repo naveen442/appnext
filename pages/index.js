@@ -535,7 +535,7 @@ function Home() {
                                         <div style={{ padding: "50px" }}>
                                             <Image
                                                 loader={myLoader}
-                                                src="assets/Slider.png"
+                                                src="assets/Slider.PNG"
                                                 alt="Picture of the author"
                                                 height={500}
                                                 width={500}
