@@ -41,29 +41,40 @@ export default function footer() {
                                         <li><a href="/cloud-telephony-ai-autodialer">Cloud telephony-ai-autodialer</a></li>
                                         <li><a  href="/missed_call_service">Missed call</a></li>
                                         <li><a href="/virtual_mobile_number">Virtual mobile number</a></li>
-                                        <li><a href="/obd_calls">Obd calls</a></li>
+                                        <li><a href="/obd_calls">Out bound dialer calls</a></li>
                                         <li><a href="/voice_key_input">Voice key input</a></li>
-                                        <li><a href="/ivr_service">Ivr</a></li>
+                                        <li><a href="/ivr_service">Interactive Voice Response</a></li>
                                     </ul>
                                 </Col>
 
                                 <Col md={3}>
+                                    <Row>
                                     <h4>Solutions</h4>
-                                    <ul>
+                                        <Col md={4}>
+                                        <ul>
                                         <li><a href="/advertising_agencies">Advertising agencies</a></li>
                                         <li><a href="/automobiles_solutions">Automobiles</a></li>
                                         <li><a href="/bfsi_solutions">Bfsi</a></li>
                                         <li><a href="/healthcare">Healthcare</a></li>
                                         <li><a href="/retail">Retail</a></li>
+                                       
+                                       
+
+                                    </ul>
+                                        </Col>
+                                        <Col md={6}>
+                                            <ul>
                                         <li><a href="/E-commerce">E-commerce</a></li>
                                         <li><a href="/education">Education</a></li>
                                         <li><a href="/software">Software</a></li>
                                         <li><a href="/trading">Trading</a></li>
-                                        <li><a href="/electrical_electronics">Electrical & electronics</a></li>
+                                        <li><a href="/electrical_electronics">Electrical&electronics</a></li>
                                         <li><a href="/food_beverages">Food & beverages</a></li>
-                                       
-
-                                    </ul>
+                                        </ul>
+                                        </Col>
+                                    </Row>
+                                    
+                                   
                                 </Col>
 
                                 <Col md={3}>

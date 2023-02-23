@@ -3,7 +3,7 @@ import CountUp from "react-countup";
 import { TiTick } from "react-icons/ti";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { CgFormatLeft } from "react-icons/cg";
-import styles from "../styles/Home.module.css"
+import styles from "../styles/Home.module.css";
 import Head from "next/head"
 import Image from 'next/image';
 import Slider from "react-slick"
