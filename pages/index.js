@@ -148,7 +148,7 @@ function Home() {
 
                 <div className={styles.banner}>
 
-                    <Container>
+                    <Container fluid>
 
 
                         <Slider {...img} >
@@ -546,8 +546,8 @@ function Home() {
                                     </Col>
                                     <Col md={6} style={{ alignSelf: "center", padding: "50px" }}>
                                         <div >
-                                            <p className={styles.title_bold}>AI Powered - Cloud CRM</p>
-                                            <p>The AI-Powered Cloud CRM manages sales pipelines, user&apos;s transaction, sales pipelines, quote generation, marketing automation.</p>
+                                            <p className={styles.title_bold}>Cloud CRM</p>
+                                            <p>The Cloud CRM manages sales pipelines, user&apos;s transaction, sales pipelines, quote generation, marketing automation.</p>
                                             <p className={styles.fontbold}> <Image
                                                                 loader={myLoader}
                                                                 src="/assets/list1.gif"
@@ -593,7 +593,7 @@ function Home() {
 
                                 </Row>
                             </div>
-                            <div>
+                            {/* <div>
                                 <Row>
                                     <Col md={6} style={{ alignSelf: "center", textAlign: "center" }}>
                                         <div style={{ padding: "50px" }}>
@@ -651,7 +651,7 @@ function Home() {
                                     </Col>
 
                                 </Row>
-                            </div>
+                            </div> */}
 
                             <div>
                                 <Row>
