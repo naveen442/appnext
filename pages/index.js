@@ -1056,14 +1056,13 @@ function Home() {
                                         </Col>
                                     </Row>
                                 </Card.Header>
-                                <div>
+                              
                                 <Card.Body css={{ py: "$1" }} className="text-center gctp_para">
                                     <Text size={15} weight="light" className={`${styles['card_head_hover']}`}>
                                         Nettyfish has provided a good support in establishing
                                         the SMS system for Greater Chennai Traffic Police!
                                     </Text>
                                 </Card.Body>
-                                </div>
                             </Card>
                             </div>
 
@@ -1189,7 +1188,7 @@ these businesses to automate their customer interactions and turn conversations 
                                         <p>JUL 26,2022</p>
                                         <h5 className={`${styles['card-title']}`}>Why SMS Automation Important for your Business</h5>
 
-                                        <p className={`${styles['card-text']}`}>SMS is a short Message service in which you can send messages directly without the internet to the receiver. The re</p>
+                                        <p className={`${styles['card-text']}`}>SMS is a short Message service in which you can send messages directly without the internet to the receiver.</p>
 
                                         <div>
 
