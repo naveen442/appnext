@@ -148,7 +148,7 @@ function Home() {
 
                 <div className={styles.banner}>
 
-                    <Container fluid>
+                    <Container fluid className="p-0">
 
 
                         <Slider {...img} >
@@ -176,7 +176,7 @@ function Home() {
                                         <div style={{ textAlign: "center", textAlign: "center" }}>
                                             <Image
                                                 loader={myLoader}
-                                                src="/assets/home_page_slider_bulk_sms_services.png"
+                                                src="/assets/home_page_slider_bulk_sms_services.webp"
                                                 alt="Picture of the author"
                                                 width={400}
                                                 height={400}
@@ -215,7 +215,7 @@ function Home() {
                                         <div style={{ textAlign: "center", textAlign: "center" }}>
                                             <Image
                                                 loader={myLoader}
-                                                src="/assets/home_page_slider_digital_marketing.png"
+                                                src="/assets/home_page_slider_digital_marketing.webp"
                                                 alt="Picture of the author"
                                                 width={550}
                                                 height={400}
@@ -253,7 +253,7 @@ function Home() {
                                         <div style={{ textAlign: "center", textAlign: "center" }}>
                                             <Image
                                                 loader={myLoader}
-                                                src="/assets/home_page_slider_wacto.png"
+                                                src="/assets/home_page_slider_wacto.webp"
                                                 alt="Picture of the author"
                                                 width={550}
                                                 height={400}
@@ -374,7 +374,7 @@ function Home() {
 
                                         <Image
                                             loader={myLoader}
-                                            src="/assets/Enterprise_SMS_1 (2).png"
+                                            src="/assets/enterprise-sms.webp"
                                             alt="Picture of the author"
                                             width={500}
                                             height={500}
@@ -430,7 +430,7 @@ function Home() {
 
                                     <Image
                                         loader={myLoader}
-                                        src="/assets/solutions_section_digital_marketing.png"
+                                        src="/assets/solutions-section-digital-marketing.webp"
                                         alt="Picture of the author"
                                         width={300}
                                         height={250}
@@ -461,7 +461,7 @@ function Home() {
 
                                     <Image
                                         loader={myLoader}
-                                        src="/assets/solutions_section_crm.png"
+                                        src="/assets/solutions-section-crm.webp"
                                         alt="Picture of the author"
                                         width={300}
                                         height={250}
@@ -493,7 +493,7 @@ function Home() {
                                 <div className={`${styles['card']}`}>
                                     <Image
                                         loader={myLoader}
-                                        src="/assets/solutions_section_sms.png"
+                                        src="/assets/solutions-section-sms.webp"
                                         alt="Picture of the author"
                                         width={300}
                                         height={250}
@@ -535,7 +535,7 @@ function Home() {
                                         <div style={{ padding: "50px" }}>
                                             <Image
                                                 loader={myLoader}
-                                                src="assets/Slider.PNG"
+                                                src="assets/cloud-crm.webp"
                                                 alt="Picture of the author"
                                                 height={500}
                                                 width={500}
@@ -659,7 +659,7 @@ function Home() {
                                         <div style={{ padding: "50px" }}>
                                             <Image
                                                 loader={myLoader}
-                                                src="assets/1653631410_wa-bot-explains.webp"
+                                                src="assets/whatsapp-conversatation.webp"
                                                 alt="Picture of the author"
                                                 height={500}
                                                 width={500}
@@ -1095,7 +1095,7 @@ function Home() {
                                         <Link href="https://youtu.be/HGSR3FDVkkQ">
                                             <Image
                                                 loader={myLoader}
-                                                src="/assets/about_us.png"
+                                                src="/assets/about-us.webp"
                                                 alt="Picture of the author"
                                                 width={400}
                                                 height={250}
@@ -1168,7 +1168,7 @@ function Home() {
                                 <div className={`${styles['card']}`}>
                                     <Image
                                         loader={myLoader}
-                                        src="/assets/Rectangle 21 (1).png"
+                                        src="/assets/ecommerce.webp"
                                         alt="Picture of the author"
                                         width={356}
                                         height={250}
@@ -1198,7 +1198,7 @@ function Home() {
                                 <div className={`${styles['card']}`}>
                                     <Image
                                         loader={myLoader}
-                                        src="/assets/Rectangle 21.png"
+                                        src="/assets/sms-marketing.webp"
                                         alt="Picture of the author"
                                         width={356}
                                         height={250}
@@ -1228,7 +1228,7 @@ function Home() {
                                 <div className={`${styles['card']}`}>
                                     <Image
                                         loader={myLoader}
-                                        src="/assets/Rectangle 21 (2).png"
+                                        src="/assets/educational-institute.webp"
                                         alt="Picture of the author"
                                         width={356}
                                         height={250}

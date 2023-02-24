@@ -55,7 +55,7 @@ export default function footer() {
                                         <ul className='margin_top_a'>
                                         <li ><a href="/advertising_agencies">Advertising agencies</a></li>
                                         <li><a href="/automobiles_solutions">Automobiles</a></li>
-                                        <li><a href="/bfsi_solutions">Bfsi</a></li>
+                                        <li><a href="/bfsi_solutions">BFSI</a></li>
                                         <li><a href="/healthcare">Healthcare</a></li>
                                         <li><a href="/retail">Retail</a></li>
                                         <li><a href="/Logistics">Logistics</a></li>
@@ -174,7 +174,7 @@ export default function footer() {
                                 </p>
                             </div>
 
-                            <p className={`${styles['copyright']}`}>Nettyfish Solutions Private Limited @2023</p>
+                            <p className={`${styles['copyright']}`}>2023 © Nettyfish Solutions Pvt Ltd. All Rights Reserved.</p>
 
                         </div>
 

@@ -237,7 +237,7 @@ const Mobile = (props) => {
                 <Col md={6} style={{ alignSelf: "center", textAlign: "center" }}>
                   <Image
                     loader={myLoader}
-                    src="/assets/1653995985_1653474376_ezgif.com-gif-maker (16).webp"
+                    src="/assets/Key-pana.svg"
                     alt="Picture of the author"
                     height={250}
                     width={250}
