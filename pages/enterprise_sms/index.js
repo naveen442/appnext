@@ -224,13 +224,16 @@ const Enterprise = () => {
 
                       </Row>
                     </Card.Header>
-                    <Card.Body css={{ py: "$1" }}>
-                      <Text h4 css={{ lineHeight: "$xs", pb: "$8" }} className={`${styles['card_head_hover']}`}> Promotional SMS  </Text>
+                    <div>
+                    <Card.Body css={{ py: "$1" }} >
+                      <Text h4 css={{ lineHeight: "$xs", pb: "$0" }} className={`${styles['card_head_hover']}`}> Promotional SMS  </Text>
                       <Text size={15} weight="" className={`${styles['card_head_hover']}`}>
                         Promotional SMS is used to market businesses by sending discounts, flash notifications, offers, coupons, and vouchers to customers for promotion and lead generation. Delivering promotional SMS should only be to non-DND numbers, registering for DLT is mandatory, and the sender ID should be numeric. 9 AM to 9 PM is the most ideal time to send.
                       </Text>
                     </Card.Body>
+                    </div>
                   </Card>
+                 
                 </div>
               </Col>
               <Col md={4}>
@@ -251,7 +254,7 @@ const Enterprise = () => {
                       </Row>
                     </Card.Header>
                     <Card.Body css={{ py: "$1" }}>
-                      <Text h4 css={{ lineHeight: "$xs", pb: "$8" }} > Transactional SMS</Text>
+                      <Text h4 css={{ lineHeight: "$xs", pb: "$0" }} > Transactional SMS</Text>
                       <Text size={15} weight="" className={`${styles['card_head_hover']}`}>
                         Transactional SMS is used to send transactional messages like bank money transactions, OTP verifications, circulars, and announcements. DLT registration is mandatory for transactional SMS, and promotional SMS content and templates are not allowed in transactional SMS. It can be sent using an alphabetic ID.
                       </Text>
@@ -387,12 +390,14 @@ const Enterprise = () => {
 
                       </Row>
                     </Card.Header>
+                    <div>
                     <Card.Body css={{ py: "$1" }}>
                       <Text h4 css={{ lineHeight: "$xs", pb: "$8" }} className={`${styles['card_head_hover']}`}> Scheduled SMS </Text>
                       <Text size={15} weight="" className={`${styles['card_head_hover']}`}>
                         Scheduling your messages allows you to send them whenever you want. Schedule SMS marketing campaigns with the preferred time and date for sending messages.
                       </Text>
                     </Card.Body>
+                    </div>
                   </Card>
                 </div>
               </Col>
