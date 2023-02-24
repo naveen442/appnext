@@ -1111,7 +1111,8 @@ function Home() {
                                     <div>
                                         <div style={{ marginTop: "20px" }}>
                                             <p className={styles.title_client}>About Us</p>
-                                            <p className={`${styles['para']}`}>Nettyfish solution is a smart communication and comprehensive digital solution providing a
+                                            <p className={`${styles['para']}`}>
+                                                {/* Nettyfish solution is a smart communication and comprehensive digital solution providing a
                                                 company for business betterment. Nettyfish has 9 years of experience. Founders of Nettyfish
                                                 are Mr. Gunasekaran, MD at Nettyfish solution, and Mrs. Durga Lakshmi, MD at Nettyfish
                                                 solution in the year 2013. It started with 2 employees with the main motive of providing SMS
@@ -1125,7 +1126,14 @@ function Home() {
                                                 are limitless. our major vision is to provide conversation solutions and automation platforms
                                                 to businesses in all types of industries. we launched WhatsApp API with an automatic
                                                 chatbot API and started Digital Marketing. Now we have more than 5000 clients with
-                                                satisfaction because of the quality service provided by Nettyfish.</p>
+                                                satisfaction because of the quality service provided by Nettyfish. */}
+                                                We strongly believe that conversations play a crucial role in establishing and strengthening customer
+relationships, especially when it comes to converting prospects into sales. For businesses, sales are
+essential to survive and grow. Although larger enterprises may have the necessary resources to
+develop custom tools for interacting with customers, small and medium-sized businesses lack the
+expertise to do so. That's where Nettyfish comes in. We offer an easy-to-use platform that enables
+these businesses to automate their customer interactions and turn conversations into conversions.
+                                                </p>
                                         </div>
                                     </div>
 

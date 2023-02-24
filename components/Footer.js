@@ -103,7 +103,7 @@ export default function footer() {
                                     <h4>Social Connect</h4>
                                     <Row>
                                         <Col>
-                                        <a href="https://www.facebook.com/">
+                                        <a href="https://www.facebook.com/nettyfishsolutions">
                                             <Image className={styles.imagecount}
                                                 loader={myLoader}
                                                 src="/assets/facebook 1.svg"
@@ -112,7 +112,7 @@ export default function footer() {
                                                 height={60}
                                             />
                                             </a>
-                                            <a href="https://twitter.com/">
+                                            <a href="https://twitter.com/Nettyfish_offic ">
                                             <Image className={styles.imagecount}
                                                 loader={myLoader}
                                                 src="/assets/twitter 1.svg"
@@ -121,7 +121,7 @@ export default function footer() {
                                                 height={60}
                                             />
                                             </a>
-                                            <a href="https://www.instagram.com/accounts/login/">
+                                            <a href="https://www.instagram.com/nettyfishsolutions/ ">
                                             <Image className={styles.imagecount}
                                                 loader={myLoader}
                                                 src="/assets/instagram 1.svg"
@@ -130,7 +130,7 @@ export default function footer() {
                                                 height={60}
                                             />
                                             </a>
-                                            <a href="https://www.linkedin.com/login">
+                                            <a href="https://www.linkedin.com/company/nettyfish-solutions-pvt-ltd ">
                                             <Image className={styles.imagecount}
                                                 loader={myLoader}
                                                 src="/assets/linkedin 1.svg"
