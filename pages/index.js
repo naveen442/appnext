@@ -1056,12 +1056,14 @@ function Home() {
                                         </Col>
                                     </Row>
                                 </Card.Header>
+                                <div>
                                 <Card.Body css={{ py: "$1" }} className="text-center gctp_para">
                                     <Text size={15} weight="light" className={`${styles['card_head_hover']}`}>
                                         Nettyfish has provided a good support in establishing
                                         the SMS system for Greater Chennai Traffic Police!
                                     </Text>
                                 </Card.Body>
+                                </div>
                             </Card>
                             </div>
 
