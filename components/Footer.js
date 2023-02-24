@@ -58,6 +58,7 @@ export default function footer() {
                                         <li><a href="/bfsi_solutions">Bfsi</a></li>
                                         <li><a href="/healthcare">Healthcare</a></li>
                                         <li><a href="/retail">Retail</a></li>
+                                        <li><a href="/Logistics">Logistics</a></li>
                                        
                                        
 
@@ -71,6 +72,8 @@ export default function footer() {
                                         <li><a href="/trading">Trading</a></li>
                                         <li><a href="/electrical_electronics">Electrical&electronics</a></li>
                                         <li><a href="/food_beverages">Food & beverages</a></li>
+                                        <li><a href="/tour_travels" >Tours & Travels</a></li>
+                                        
                                         </ul>
                                         </Col>
                                     </Row>
