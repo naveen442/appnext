@@ -1815,9 +1815,9 @@ these businesses to automate their customer interactions and turn conversations 
                         </Row>
                     </div>
                 </Container>
-                <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." className="float" target="_blank">
+                {/* <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." className="float" target="_blank">
 <i className="fa fa-whatsapp my-float"></i>
-</a>
+</a> */}
 <a href="http://wacto.in/" target="_blank" className="float1">
                                             <Image
                                             className="my-float1"
@@ -1830,9 +1830,17 @@ these businesses to automate their customer interactions and turn conversations 
                                             </a>
 
 
-                {/* <FloatingWhatsApp
+                
+               <FloatingWhatsApp
+                 phoneNumber=" 8608666111"
+                 accountName="Nettyfish"
+                 allowEsc
+                 allowClickAway
+                 notification
+                 notificationSound
 
-      /> */}
+
+      />
       <div class="sticky-icon">
    <a href="https://www.instagram.com/nettyfishsolutions/ " className="Instagram"><i className="fab fa-instagram"></i> Instagram </a>
    <a href="https://www.facebook.com/nettyfishsolutions" className="Facebook"><i className="fab fa-facebook-f"> </i> Facebook </a>

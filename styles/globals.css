@@ -139,7 +139,7 @@ a {
 	width:60px;
 	height:60px;
 	bottom:40px;
-	right:40px;
+	left:40px;
 	background-color:#25d366;
 	color:#FFF;
 	border-radius:50px;
@@ -157,7 +157,7 @@ a {
 	width:60px;
 	height:60px;
 	bottom:40px;
-	left:10px;
+	right:40px;
 	color:#FFF;
   z-index:100;
 }
@@ -175,7 +175,8 @@ a {
 	flex-direction:column;}  
 .sticky-icon a  {
 	transform:translate(160px,0px);
-	border-radius:50px 0px 0px 50px;
+	/* border-radius:50px 0px 0px 50px; */
+  border-radius:2px;
 	text-align:left;
 	margin:2px;
 	text-decoration:none;
@@ -192,18 +193,22 @@ a {
 /*.search_icon a:hover i  {
 	transform:rotate(360deg);}*/
 .Facebook  {
+  margin-bottom: -2px !important;
 	background-color:#2C80D3;
 	color:#FFF;}
 	
 .Youtube  {
+
 	background-color:#fa0910;
 	color:#FFF;}
 	
 .Twitter  {
+ 
 	background-color:#53c5ff;
 	color:#FFF;}
 	
 .Instagram  {
+margin-bottom: -2px !important;
 	background-color:#FD1D1D;
 	color:#FFF;}
 	
@@ -230,7 +235,8 @@ a {
 	
 .sticky-icon a i.fa-instagram  {
 	background-color:#FFF;
-	color:#FD1D1D;}
+	color:#FD1D1D;
+}
 	
 .sticky-icon a i.fa-youtube  {
 	background-color:#FFF;
@@ -265,3 +271,37 @@ a {
 #myBtn:hover {
   background-color: #555;
 }			
+.styles-module_whatsappButton__tVits {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 2rem;
+  left:2rem;
+  cursor: pointer;
+  background-color: #25d366;
+  border-radius: 50%;
+  -webkit-user-select: none;
+  user-select: none;
+  box-shadow: 0px 4px 10px 0px rgb(0 0 0 / 15%);
+  z-index: 9998;
+}
+.styles-module_whatsappChatBox__MdQ5U {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5%;
+  overflow: hidden;
+  background-color: #fff;
+  touch-action: auto;
+  position: fixed;
+  bottom: 7rem;
+  left: 4rem;
+  width: 375px;
+  opacity: 0;
+  transition: height 0.2s ease-out;
+  box-shadow: 0 3px 10px 0 rgb(0 0 0 / 20%);
+  z-index: 9999;
+}

@@ -7,8 +7,8 @@ import Head from "next/head"
 import Script from "next/script"
 import Link from "next/link"
 import Image from 'next/image';
-import AOS from 'aos'
-
+import AOS from 'aos';
+import { FloatingWhatsApp } from "react-floating-whatsapp";
 
 
 
@@ -120,6 +120,34 @@ export default function Events() {
     </Grid.Container>
 
     </Container>
+    <a href="http://wacto.in/" target="_blank" className="float1">
+                                            <Image
+                                            className="my-float1"
+                                            
+                                                src="/assets/wacto.png"
+                                                alt="Picture of the author"
+                                                width={60}
+                                                height={60}
+                                            />
+                                            </a>
+
+
+                
+               <FloatingWhatsApp
+                 phoneNumber=" 8608666111"
+                 accountName="Nettyfish"
+                 allowEsc
+                 allowClickAway
+                 notification
+                 notificationSound
+
+
+      />
+      <div class="sticky-icon">
+   <a href="https://www.instagram.com/nettyfishsolutions/ " className="Instagram"><i className="fab fa-instagram"></i> Instagram </a>
+   <a href="https://www.facebook.com/nettyfishsolutions" className="Facebook"><i className="fab fa-facebook-f"> </i> Facebook </a>
+   <a href="https://twitter.com/Nettyfish_offic" className="Twitter"><i className="fab fa-twitter"> </i> Twitter </a>   
+</div>
     </div>
     </div>
     </>
