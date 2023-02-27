@@ -129,7 +129,7 @@ function formDataAdd(e) {
                   <p>or</p>
                   <p> Login with:</p>
                   <button type="button" class="btn btn-link btn-floating mx-1">
-                    <i class="fab fa-facebook-f"></i>
+                  <a href="https://www.facebook.com/nettyfishsolutions"> <i class="fab fa-facebook-f"></i></a>
                   </button>
 
                   <button type="button" class="btn btn-link btn-floating mx-1">
@@ -137,7 +137,7 @@ function formDataAdd(e) {
                   </button>
 
                   <button type="button" class="btn btn-link btn-floating mx-1">
-                    <i class="fab fa-twitter"></i>
+                  <a href="https://twitter.com/Nettyfish_offic "><i class="fab fa-twitter"></i></a>
                   </button>
 
                  
