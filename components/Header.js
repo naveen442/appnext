@@ -24,6 +24,14 @@ const Header = () => {
   const firstClosef = useRef();
 
   function toggle() {
+//  const targetDiv = document.getElementById("tabclose");
+//     {
+//       if (targetDiv.style.display !== "block") {
+//         targetDiv.style.display = "none";
+//       } else {
+//         targetDiv.style.display = "block";
+//       }
+//     };
     //  setShowMe(!showMe);
     // setIsOpen(false); 
     document.getElementsByClassName("tabclose").style.display = "none";
@@ -39,6 +47,14 @@ const Header = () => {
     // close the menu when a link is clicked
   }
   function toggle2() {
+    // const targetDiv = document.getElementsByClassName("tabclose2");
+    // {
+    //   if (targetDiv.style.display !== "none") {
+    //     targetDiv.style.display = "none";
+    //   } else {
+    //     targetDiv.style.display = "block";
+    //   }
+    // };
     //  setShowMe(!showMe);
     // setIsOpen(false); 
     document.getElementsByClassName("tabclose2").style.display = "none";
@@ -112,7 +128,7 @@ const Header = () => {
                   </a>
                 </div>
 
-                <div className={`${styles['dropdown-menu']} dropdown-menu tabclose`} aria-labelledby="navbarDropdown" >
+                <div className={`${styles['dropdown-menu']} dropdown-menu "tabclose" `} aria-labelledby="navbarDropdown" >
 
                   <Row className={`${styles['dropdown-menu-mobile']}`}>
 

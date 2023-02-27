@@ -1,4 +1,5 @@
-import { Container, Row, Col, Button } from "react-bootstrap"
+import { Container, Row, Col, Button } from "react-bootstrap";
+
 import CountUp from "react-countup";
 import { TiTick } from "react-icons/ti";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
@@ -13,8 +14,10 @@ import "slick-carousel/slick/slick-theme.css";
 import { Card, Grid, Text, Link } from "@nextui-org/react";
 import React, { useEffect } from 'react';
 import img7 from '../public/assets/nettyfish.png';
-import AOS from 'aos'
+import AOS from 'aos';
+
 import "@fontsource/poppins"; // Defaults to weight 400.
+import { FloatingWhatsApp } from "react-floating-whatsapp";
 
 
 const img = {
@@ -118,7 +121,9 @@ const myLoader = ({ src, width, quality }) => {
 
 
 function Home() {
+const wtsapp=()=>{
 
+}
     useEffect(() => {
         AOS.init({
             duration: 2000
@@ -139,7 +144,11 @@ function Home() {
 <link rel="icon" type="image/gif" href="favicon/animated_favicon1.gif"/>
                 <title>Nettyfish</title>
                 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossOrigin="anonymous"></link>
+                
                 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></link>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/> 
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"></link>
             </Head>
             <Script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></Script>
             <div>
@@ -811,11 +820,50 @@ function Home() {
 
                                     <div style={{ alignSelf: "center" }}>
                                         <p className={styles.title_bold}>Integration</p>
-                                        <p>I run Nettyfish Solutions. We’ve been working on a product that helps you automate the process of sending transaction notifications to end users in your business, so they can get connected to the company’s digital presence more easily.</p>
+                                        {/* <p>I run Nettyfish Solutions. We’ve been working on a product that helps you automate the process of sending transaction notifications to end users in your business, so they can get connected to the company’s digital presence more easily.</p>
 
                                         <p>If you’re interested in using our product, we’d love to have you join us at a meetup or join our community online. You can sign up directly through the website.</p>
 
-                                        <p>We hope you’ll find value in our product!</p>
+                                        <p>We hope you’ll find value in our product!</p> */}
+                                        <p>Nettyfish can help simplify your business operations by seamlessly integrating our products and services into your existing technology stack. Our integrations can work with your preferred e-commerce platforms, websites, CRMs, and e-stores, among other things. By integrating with Nettyfish, you can transform all of your omnichannel efforts into a single, user-friendly platform, eliminating the need to manage multiple tasks.</p>
+                                        <ul  className={styles.ul1}>
+                                            <li><Image
+                loader={myLoader}
+                src="./assets/list1.gif"
+                alt="Picture of the author"
+                width={30}
+                height={30} /> Provide support across channels</li>
+                                            <li><Image
+                loader={myLoader}
+                src="./assets/list1.gif"
+                alt="Picture of the author"
+                width={30}
+                height={30} /> Monitor in real time</li>
+                                            <li> <Image
+                loader={myLoader}
+                src="./assets/list1.gif"
+                alt="Picture of the author"
+                width={30}
+                height={30} />  Optimize performance</li>
+                                            <li> <Image
+                loader={myLoader}
+                src="./assets/list1.gif"
+                alt="Picture of the author"
+                width={30}
+                height={30} />Save time and lower costs</li>
+                                            <li> <Image
+                loader={myLoader}
+                src="./assets/list1.gif"
+                alt="Picture of the author"
+                width={30}
+                height={30} /> Enhance productivity</li>
+                                            <li> <Image
+                loader={myLoader}
+                src="./assets/list1.gif"
+                alt="Picture of the author"
+                width={30}
+                height={30} /> Boost customer satisfaction</li>
+                                        </ul>
                                     </div>
 
                                     <div>
@@ -1767,7 +1815,29 @@ these businesses to automate their customer interactions and turn conversations 
                         </Row>
                     </div>
                 </Container>
+                <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." className="float" target="_blank">
+<i className="fa fa-whatsapp my-float"></i>
+</a>
+<a href="http://wacto.in/" target="_blank" className="float1">
+                                            <Image
+                                            className="my-float1"
+                                            
+                                                src="/assets/wacto.png"
+                                                alt="Picture of the author"
+                                                width={60}
+                                                height={60}
+                                            />
+                                            </a>
 
+
+                {/* <FloatingWhatsApp
+
+      /> */}
+      <div class="sticky-icon">
+   <a href="https://www.instagram.com/nettyfishsolutions/ " className="Instagram"><i className="fab fa-instagram"></i> Instagram </a>
+   <a href="https://www.facebook.com/nettyfishsolutions" className="Facebook"><i className="fab fa-facebook-f"> </i> Facebook </a>
+   <a href="https://twitter.com/Nettyfish_offic" className="Twitter"><i className="fab fa-twitter"> </i> Twitter </a>   
+</div>
             </div>
 
 
