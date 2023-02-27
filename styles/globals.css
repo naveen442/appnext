@@ -287,6 +287,7 @@ margin-bottom: -2px !important;
   user-select: none;
   box-shadow: 0px 4px 10px 0px rgb(0 0 0 / 15%);
   z-index: 9998;
+ 
 }
 .styles-module_whatsappChatBox__MdQ5U {
   display: flex;
@@ -303,5 +304,12 @@ margin-bottom: -2px !important;
   opacity: 0;
   transition: height 0.2s ease-out;
   box-shadow: 0 3px 10px 0 rgb(0 0 0 / 20%);
+
   z-index: 9999;
+}
+.styles-module_chatFooter__TGv0P form .styles-module_buttonSend__kXjja{
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
 }
