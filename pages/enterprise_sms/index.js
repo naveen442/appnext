@@ -557,7 +557,6 @@ const Enterprise = () => {
         <a href="https://app.wacto.in/admin/login" target="_blank" className="float1">
                                             <Image
                                             className="my-float1"
-                                            
                                                 src="/assets/wacto.png"
                                                 alt="Picture of the author"
                                                 width={60}
