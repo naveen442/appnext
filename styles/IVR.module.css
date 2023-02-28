@@ -76,7 +76,7 @@
 .mt_150 {
 
     align-self: center;
-    /* margin-left: 200px; */
+    margin-left: 200px;
     margin-top: -190px;
     text-align: end;
 }
@@ -215,7 +215,7 @@
 
 @media screen and (max-width: 1200px) {
     .mt_150 {
-        margin-top: -175px;
+        margin-top: -15px;
         text-align: end;
     }
 }

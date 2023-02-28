@@ -168,8 +168,10 @@ const wtsapp=()=>{
                                     <Col md={7} style={{ alignSelf: "center", padding: "0px 0px 50px 40px" }}>
                                         <div >
 
-                                            <h1>100% delivery bulk SMS service provider in India</h1>
-                                            <p className={styles.sub_para}>Reach Millions of customers instantly with our bulk SMS marketing service. Quick, effective, and affordable marketing for your business.</p>
+                                            {/* <h1>100% delivery bulk SMS service provider in India</h1> */}
+                                            <h1>Premium Messaging Service For Your Business/Enterprise</h1>
+                                            {/* <p className={styles.sub_para}>Reach Millions of customers instantly with our bulk SMS marketing service. Quick, effective, and affordable marketing for your business.</p> */}
+                                            <p className={styles.sub_para}>Increase sales and customer satisfaction with smarter SMS campaigns, instant OTPs, notifications, two-way interactions, DLT SMS, SMS API and much more.</p>
 
                                             <form className="d-flex">
                                                 <input className={`${styles['form-control']} form-control me-2`} type="search" placeholder="Enter Your Email" aria-label="Search" />
@@ -1818,9 +1820,9 @@ these businesses to automate their customer interactions and turn conversations 
                 {/* <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." className="float" target="_blank">
 <i className="fa fa-whatsapp my-float"></i>
 </a> */}
-<a href="https://app.wacto.in/admin/login" target="_blank" className="float1">
+<a href="https://app.wacto.in/admin/login" target="_blank" className="float">
                                             <Image
-                                            className="my-float1"
+                                            className="my-float"
                                             
                                                 src="/assets/wacto.png"
                                                 alt="Picture of the author"

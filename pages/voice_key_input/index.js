@@ -43,8 +43,9 @@ const VoiceKey = (props) => {
                                 loader={myLoader}
                                 src="assets/Voice Key Input.png"
                                 alt="Picture of the author"
-                                width={370}
                                 height={290}
+                                width={370}
+                       
                                 quality={100}
                              
                                 priority

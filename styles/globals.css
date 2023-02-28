@@ -134,7 +134,7 @@ a {
   margin-top: -9px;
 }
 
-.float{
+/* .float{
 	position:fixed;
 	width:60px;
 	height:60px;
@@ -151,8 +151,8 @@ a {
 
 .my-float{
 	margin-top:16px;
-}
-.float1{
+} */
+.float{
 	position:fixed;
 	width:60px;
 	height:60px;
@@ -162,7 +162,7 @@ a {
   z-index:100;
 }
 
-.my-float1{
+.my-float{
 	margin-top:16px;
 }
 .sticky-icon  {

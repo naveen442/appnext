@@ -50,8 +50,7 @@ const WhatsappChatbot = () => {
 
 
               <Col md={12} style={{ alignSelf: "center" }}>
-                <div data-aos="fade-up"
-                  data-aos-anchor-placement="top-bottom">
+               
                   <div className={styles.mt_150}>
                     <Image
                       loader={myLoader}
@@ -61,7 +60,7 @@ const WhatsappChatbot = () => {
                       height={300}
 
                     />
-                  </div>
+              
 
                   <p className={styles.heading}>Why is WhatsApp Business API for Business?</p>
                   <p>Now a day most customers and people like to make every process of purchase, communication, and customer support comfortable and easy. WhatsApp API gives the best solution for customer handling and business automation in the world’s most famous communication platform. WhatsApp API and WhatsApp chatbot have more benefits in business branding and handling.
