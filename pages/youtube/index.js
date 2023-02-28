@@ -117,7 +117,7 @@ export default function Youtube() {
             </Grid.Container>
 
           </Container>
-          <a href="http://wacto.in/" target="_blank" className="float1">
+          <a href="https://app.wacto.in/admin/login" target="_blank" className="float1">
                                             <Image
                                             className="my-float1"
                                             
@@ -137,6 +137,7 @@ export default function Youtube() {
                  allowClickAway
                  notification
                  notificationSound
+                 avatar="./assets/nettyfish.png"
 
 
       />

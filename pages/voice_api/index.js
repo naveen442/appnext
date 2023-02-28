@@ -486,7 +486,7 @@ const VoiceAPI = () => {
               </div>
             </div>
           </Container>
-          <a href="http://wacto.in/" target="_blank" className="float1">
+          <a href="https://app.wacto.in/admin/login" target="_blank" className="float1">
                                             <Image
                                             className="my-float1"
                                             
@@ -506,7 +506,7 @@ const VoiceAPI = () => {
                  allowClickAway
                  notification
                  notificationSound
-
+                 avatar="./assets/nettyfish.png"
 
       />
       <div class="sticky-icon">
