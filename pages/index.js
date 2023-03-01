@@ -148,7 +148,7 @@ const wtsapp=()=>{
                 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></link>
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/> 
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"></link>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossOrigin="anonymous"></link>
             </Head>
             <Script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></Script>
             <div>
@@ -1842,7 +1842,7 @@ these businesses to automate their customer interactions and turn conversations 
                  avatar="./assets/nettyfish.png"
 
       />
-      <div class="sticky-icon">
+      <div className="sticky-icon">
    <a href="https://www.instagram.com/nettyfishsolutions/ " className="Instagram"><i className="fab fa-instagram"></i> Instagram </a>
    <a href="https://www.facebook.com/nettyfishsolutions" className="Facebook"><i className="fab fa-facebook-f"> </i> Facebook </a>
    <a href="https://twitter.com/Nettyfish_offic" className="Twitter"><i className="fab fa-twitter"> </i> Twitter </a>   
