@@ -1716,7 +1716,6 @@ these businesses to automate their customer interactions and turn conversations 
                                         height={150}
                                         quality={100}
                                         priority
-
                                     />
                                     <Image className={styles.imagecaros}
                                         loader={myLoader}
