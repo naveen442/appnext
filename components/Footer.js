@@ -51,7 +51,7 @@ export default function footer() {
                                 <h4>Solutions</h4>
                                     <Row>
                                     
-                                        <Col md={4}>
+                                        <Col md={5}>
                                         <ul className='margin_top_a'>
                                         <li ><a href="/advertising_agencies">Advertising agencies</a></li>
                                         <li><a href="/automobiles_solutions">Automobiles</a></li>

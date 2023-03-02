@@ -317,3 +317,94 @@ margin-bottom: -2px !important;
   outline: 0;
    box-shadow:none !important;
 }
+.loginpage{
+  margin-top:70px;
+}
+.marginleft{
+  margin-left: 100px;
+}
+
+.section1{
+  position:relative;
+  height:600px;
+  background:#F1F5F8;
+  padding:10px 0px;
+  width:100%;
+}
+.section1 h2{
+  text-align:center;
+  font-size:40px;
+}
+.section1 p{
+  text-align:center;
+  padding:0px 70px;
+  color:grey;
+}
+.sticky-social{
+  position:fixed;
+  top:590px;
+  right: 15px;
+  padding:0px;
+  margin:0px;
+}
+.social{
+  list-style:none;
+  list-style: none;
+  background-color: #d5cdcd;
+    padding: 0px 0px;
+    border-radius: 36px;
+    height: 210px;
+
+}
+.social li{
+  padding:10px 10px;
+  font-size:25px;
+  transition:all 0.8s ease-in-out;
+}
+.social li:hover{
+    margin-right:-30px;
+
+}
+.social li:hover .fa{
+    margin-left:20px;
+  
+}
+.fa{
+  color:#fff;
+  transition:all 0.8s ease-in-out;
+}
+.twitter img {
+  width:30px;
+  margin-top: -70px;
+}
+.insta img{
+  width:30px;
+}
+.facebook img {
+  width:30px;
+  margin-top: -40px;
+}
+.wtsapp{
+  width:33px;
+  height:33px;
+  margin-top: -90px;
+}
+.wtsapp img {
+  width:30px;
+  margin-top: -40px;
+}
+.Twitter1{
+  width:33px;
+  height:33px;
+  margin-top: -32px;
+}
+.insta img{
+  margin-top:-10px ;
+}
+.twitter12{
+  background-color: red !important;
+  margin-left: 200px;
+  position: absolute;
+  left:200px;
+}
+
