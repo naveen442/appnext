@@ -4,9 +4,7 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  experimental: {
-    nextScriptWorkers: true,
-  },
+
 }
 
 module.exports = nextConfig
