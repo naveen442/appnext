@@ -18,6 +18,7 @@ import AOS from 'aos';
 
 import "@fontsource/poppins"; // Defaults to weight 400.
 import { FloatingWhatsApp } from "react-floating-whatsapp";
+import { WhatsAppWidget } from 'react-whatsapp-widget';
 
 
 const img = {
@@ -1861,7 +1862,7 @@ these businesses to automate their customer interactions and turn conversations 
         <li className="facebook"><a href="https://www.facebook.com/nettyfishsolutions"><img src="./assets/face1.png"/></a></li>
       <li className="twitter"><a href="https://twitter.com/Nettyfish_offic" ><img src="./assets/twit1.png"/></a></li>
     
-         <li onClick={wacto}><a href="https://app.wacto.in/admin/login" target="_blank" >
+         <li className=""><a href="https://app.wacto.in/admin/login" target="_blank" >
                                             <Image
                                         className="Twitter1"
                                                 src="/assets/wacto.png"
@@ -1873,6 +1874,7 @@ these businesses to automate their customer interactions and turn conversations 
                                             </li>
                                            <li className="wtsapp"><a href="https://api.whatsapp.com/send?phone=8608666111&"  target="_blank"><img src="./assets/Whats1.png"/></a>
 </li>
+
 
     </ul>
    
