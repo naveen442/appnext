@@ -1877,7 +1877,7 @@ these businesses to automate their customer interactions and turn conversations 
     </ul>
    
   </div>
-  <div    className="twitter12" ><FloatingWhatsApp
+  {/* <div    className="twitter12" ><FloatingWhatsApp
                                      className="twitter12"
                                      phoneNumber=" 8608666111"
                                      accountName="Nettyfish"
@@ -1887,7 +1887,7 @@ these businesses to automate their customer interactions and turn conversations 
                                      notificationSound
                                      avatar="./assets/nettyfish.png"
                     
-                          /></div>
+                          /></div> */}
                           
             </div>
 
