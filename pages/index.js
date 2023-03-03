@@ -1822,40 +1822,6 @@ these businesses to automate their customer interactions and turn conversations 
                         </Row>
                     </div>
                 </Container>
-                {/* <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." className="float" target="_blank">
-<i className="fa fa-whatsapp my-float"></i>
-</a> */}
-
-
-
-                
-  
-      {/* <div className="sticky-icon">
-   <a href="https://www.instagram.com/nettyfishsolutions/ " className="Instagram"><i className="fab fa-instagram"></i> Instagram </a>
-   <a href="https://www.facebook.com/nettyfishsolutions" className="Facebook"><i className="fab fa-facebook-f"> </i> Facebook </a>
-   <a href="https://twitter.com/Nettyfish_offic" className="Twitter"><i className="fab fa-twitter"> </i> Twitter </a>   
-   <a href="https://app.wacto.in/admin/login" target="_blank" className="Twitter1">
-                                            <Image
-                                           
-                                            
-                                                src="/assets/wacto.png"
-                                                alt="Picture of the author"
-                                                width={60}
-                                                height={60}
-                                            />
-                                            </a>
-                                                      <FloatingWhatsApp
-                                                       className="Twitter"
-                 phoneNumber=" 8608666111"
-                 accountName="Nettyfish"
-                 allowEsc
-                 allowClickAway
-                 notification
-                 notificationSound
-                 avatar="./assets/nettyfish.png"
-
-      />
-</div> */}
 <div className="sticky-social">
   <ul className="social">
     <li className="insta"><a href="https://www.instagram.com/nettyfishsolutions/ "><img src="./assets/insta1.png"/></a></li>
@@ -1890,6 +1856,7 @@ these businesses to automate their customer interactions and turn conversations 
                                      avatar="./assets/nettyfish.png"
                     
                           /></div>
+                          
             </div>
 
 
