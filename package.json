@@ -22,12 +22,15 @@
     "next": "13.1.6",
     "react": "18.2.0",
     "react-bootstrap": "^2.7.2",
+    "react-chartjs-2": "^5.2.0",
     "react-countup": "^6.4.1",
+    "react-datepicker": "^4.10.0",
     "react-dom": "18.2.0",
     "react-floating-whatsapp": "^5.0.8",
     "react-icons": "^4.7.1",
     "react-lite-youtube-embed": "^2.3.52",
     "react-slick": "^0.29.0",
+    "react-whatsapp-widget": "^2.1.0",
     "slick-carousel": "^1.8.1"
   }
 }

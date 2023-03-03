@@ -20,6 +20,7 @@ import "@fontsource/poppins"; // Defaults to weight 400.
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 
 
+
 const img = {
     // dots: true,
     arrows: false,
@@ -121,9 +122,11 @@ const myLoader = ({ src, width, quality }) => {
 
 
 function Home() {
-const wtsapp=()=>{
+//    const wacto=(e,t,a)=>{
+//     var c=e.head||e.getElementsByTagName("head")[0],n=e.createElement("script");n.async=!0,n.defer=!0, n.type="text/javascript",n.src=t+"/static/js/widget.js?config="+JSON.stringify(a),c.appendChild(n)
+//     document,"https://app.wacto.in",{bot_key:"26493f2dc1864025",welcome_msg:true,branding_key:"wacto",server:"https://app.wacto.in",e:"p" }
+//     }
 
-}
     useEffect(() => {
         AOS.init({
             duration: 2000
@@ -132,6 +135,7 @@ const wtsapp=()=>{
 
     return (
         <>
+           
             <Head>
             <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon.png"/>
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
@@ -149,8 +153,12 @@ const wtsapp=()=>{
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/> 
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossOrigin="anonymous"></link>
+
             </Head>
             <Script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></Script>
+           
+
+        
             <div>
 
 
@@ -187,7 +195,7 @@ const wtsapp=()=>{
                                         <div style={{ textAlign: "center", textAlign: "center" }}>
                                             <Image
                                                 loader={myLoader}
-                                                src="/assets/home_page_slider_bulk_sms_services.webp"
+                                                src="/assets/home_page_slider_bulk_sms_services_1.png"
                                                 alt="Picture of the author"
                                                 width={400}
                                                 height={400}
@@ -226,7 +234,7 @@ const wtsapp=()=>{
                                         <div style={{ textAlign: "center", textAlign: "center" }}>
                                             <Image
                                                 loader={myLoader}
-                                                src="/assets/home_page_slider_digital_marketing.webp"
+                                                src="/assets/home_page_slider_digital_marketing_1.png"
                                                 alt="Picture of the author"
                                                 width={550}
                                                 height={400}
@@ -264,12 +272,13 @@ const wtsapp=()=>{
                                         <div style={{ textAlign: "center", textAlign: "center" }}>
                                             <Image
                                                 loader={myLoader}
-                                                src="/assets/home_page_slider_wacto.webp"
+                                                src="/assets/home_page_slider_wacto_1.png"
                                                 alt="Picture of the author"
                                                 width={550}
                                                 height={400}
                                                 layout='responsive'
                                             />
+
                                         </div>
 
                                     </Col>
@@ -1816,37 +1825,41 @@ these businesses to automate their customer interactions and turn conversations 
                         </Row>
                     </div>
                 </Container>
-                {/* <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." className="float" target="_blank">
-<i className="fa fa-whatsapp my-float"></i>
-</a> */}
-<a href="https://app.wacto.in/admin/login" target="_blank" className="float1">
+<div className="sticky-social">
+  <ul className="social">
+    <li className="insta"><a href="https://www.instagram.com/nettyfishsolutions/ "><img src="./assets/insta1.png"/></a></li>
+        <li className="facebook"><a href="https://www.facebook.com/nettyfishsolutions"><img src="./assets/face1.png"/></a></li>
+      <li className="twitter"><a href="https://twitter.com/Nettyfish_offic" ><img src="./assets/twit1.png"/></a></li>
+      <li   className="twitter12"><FloatingWhatsApp
+                                   
+                                     phoneNumber=" 8608666111"
+                                     accountName="Nettyfish"
+                                     allowEsc
+                                     allowClickAway
+                                     notification
+                                     notificationSound
+                                     avatar="./assets/nettyfish.png"
+                    
+                          /></li>
+         <li className=""><a href="/Wactochatbot" target="_blank" >
                                             <Image
-                                            className="my-float1"
-                                            
+                                        className="Twitter1"
                                                 src="/assets/wacto.png"
                                                 alt="Picture of the author"
                                                 width={60}
                                                 height={60}
                                             />
                                             </a>
+                                            </li>
+                                           {/* <li className="wtsapp"><a href="https://api.whatsapp.com/send?phone=8608666111&"  target="_blank"><img src="./assets/Whats1.png"/></a>
+</li> */}
 
 
-                
-               <FloatingWhatsApp
-                 phoneNumber=" 8608666111"
-                 accountName="Nettyfish"
-                 allowEsc
-                 allowClickAway
-                 notification
-                 notificationSound
-                 avatar="./assets/nettyfish.png"
+    </ul>
+   
+  </div>
 
-      />
-      <div className="sticky-icon">
-   <a href="https://www.instagram.com/nettyfishsolutions/ " className="Instagram"><i className="fab fa-instagram"></i> Instagram </a>
-   <a href="https://www.facebook.com/nettyfishsolutions" className="Facebook"><i className="fab fa-facebook-f"> </i> Facebook </a>
-   <a href="https://twitter.com/Nettyfish_offic" className="Twitter"><i className="fab fa-twitter"> </i> Twitter </a>   
-</div>
+                          
             </div>
 
 
