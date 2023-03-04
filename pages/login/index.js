@@ -4,7 +4,7 @@ import Form from "react-bootstrap/Form";
 
 import Button from "react-bootstrap/Button";
 import { useRouter } from 'next/navigation';
-
+import axios from "axios";
 // import "./Login.css";
 
 const Login=() =>{
@@ -13,7 +13,15 @@ const Login=() =>{
 
   const [password, setPassword] = useState("");
 
- 
+ const register=()=>{
+  axios.post('/login', {
+    Email: email,
+    Password: password
+  }, {
+    withCredentials: true
+  }).then((res)=>console.log(res)).catch((err)=>console.log(err));
+  router.push('/dashboard');
+ }
 
   function handleSubmit(event) {
 
@@ -61,7 +69,7 @@ const Login=() =>{
 
         </Form.Group>
 
-        <Button block size="lg" type="submit"  className="margin_left my-2" onClick={() => router.push('/dashboard')}>
+        <Button block size="lg" type="submit"  className="margin_left my-2" onClick={register}>
 
           Login
 
