@@ -179,7 +179,7 @@ function Home() {
 <meta name="theme-color" content="#ffffff"/>
             <link rel="shortcut icon" href="/favicon.ico"/>
 <link rel="icon" type="image/gif" href="favicon/animated_favicon1.gif"/>
-                <title>Nettyfish</title>
+                <title>Nettyfish private limited</title>
                 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossOrigin="anonymous"></link>
                 
                 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></link>
@@ -984,7 +984,7 @@ function Home() {
                                         </Row>
                                     </Card.Header>
                                     <Card.Body css={{ py: "$1" }} className="text-center">
-                                        <Text size={15} weight="light" className={`${styles['card_head_hover']}`}>
+                                        <Text size={15}  >
                                             Genuine service in the market
                                             comparing with other vendors!
                                         </Text>
@@ -1026,7 +1026,7 @@ function Home() {
                                     </Row>
                                 </Card.Header>
                                 <Card.Body css={{ py: "$1" }} className="text-center">
-                                    <Text size={15} weight="light" className={`${styles['card_head_hover ']}`}>
+                                    <Text size={15}  className={`${styles['card_head_hover ']}`}>
                                         Great to have Nettyfish for my
                                         company’s branding.
                                     </Text>
@@ -1059,7 +1059,7 @@ function Home() {
                                         <Col xs={12} sm={12 }md={12} lg={12} xl={12}>
                                             <Grid.Container>
                                                 <Grid xs={12} className="justify-content-center" >
-                                                    <Text h4 css={{ mt:"$8" }} className={`${styles['card_head_hover']}`}>
+                                                    <Text h4 css={{ mt:"$8" }} >
                                                         Titan
                                                     </Text>
                                                 </Grid>
@@ -1068,7 +1068,7 @@ function Home() {
                                     </Row>
                                 </Card.Header>
                                 <Card.Body css={{ py: "$1" }} className="text-center">
-                                    <Text size={15} weight="light" className={`${styles['card_head_hover']}`}>
+                                    <Text size={15} >
                                         Nettyfish provides very good customer service!
                                     </Text>
                                 </Card.Body>
@@ -1107,7 +1107,7 @@ function Home() {
                                     </Row>
                                 </Card.Header>
                                 <Card.Body css={{ py: "$1" }} className="text-center" >
-                                    <Text size={15} weight="light" className={`${styles['card_head_hover']}`}>
+                                    <Text size={15}  >
                                         Service of Nettyfish is very good
                                     </Text>
                                 </Card.Body>
@@ -1150,7 +1150,7 @@ function Home() {
                                 </Card.Header>
                               
                                 <Card.Body css={{ py: "$1" }} className="text-center gctp_para">
-                                    <Text size={15} weight="light" className={`${styles['card_head_hover']}`}>
+                                    <Text size={15}  >
                                         Nettyfish has provided a good support in establishing
                                         the SMS system for Greater Chennai Traffic Police!
                                     </Text>
@@ -1862,7 +1862,7 @@ these businesses to automate their customer interactions and turn conversations 
   <ul className="social">
     <li className="insta"><a href="https://www.instagram.com/nettyfishsolutions/" target="_blank"><img src="./assets/insta1.png"/></a></li>
         <li className="facebook"><a href="https://www.facebook.com/nettyfishsolutions" target="_blank"><img src="./assets/face1.png"/></a></li>
-      <li className="twitter"><a href="https://twitter.com/Nettyfish_offic" target="_blank"><img src="./assets/twit1.png"/></a></li>
+      <li className="twitter"><a href="https://twitter.com/Nettyfish_offic" target="_blank" ><img src="./assets/twit1.png"/></a></li>
       <li   className="twitter12"><FloatingWhatsApp
                                    
                                      phoneNumber=" 8608666111"

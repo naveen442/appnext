@@ -249,11 +249,11 @@
 .card_hover:hover .card_head_hover {
 
     color: white !important;
-    transition: 0.5s;
+    transition: 0.5s !important;
 }
 
 .card_head_hover {
-    font-weight: 600;
+    font-weight: 600 !important;
 }
 
 .boutus .about-img {
