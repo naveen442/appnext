@@ -1841,7 +1841,7 @@ these businesses to automate their customer interactions and turn conversations 
                  notification
                  notificationSound
                  avatar="./assets/nettyfish.png"
-
+          
       />
       <div class="sticky-icon">
    <a href="https://www.instagram.com/nettyfishsolutions/ " className="Instagram"><i className="fab fa-instagram"></i> Instagram </a>
