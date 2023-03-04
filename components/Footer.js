@@ -20,10 +20,16 @@ export default function footer() {
     return (
         <>
             <Head>
+            <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,100&display=swap" rel="stylesheet"/>
+
                 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossOrigin="anonymous"></link>
-                <link rel="stylesheet" href="https://kit.fontawesome.com/c2422d7d5c.css" crossOrigin="anonymous"></link>
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins"/>
+        <link rel="stylesheet" href="https://kit.fontawesome.com/c2422d7d5c.css" crossOrigin="anonymous"></link>
             </Head>
-            <Script src="https://kit.fontawesome.com/c2422d7d5c.js" crossorigin="anonymous"></Script>
+            <Script src="https://kit.fontawesome.com/c2422d7d5c.js" crossrigin="anonymous"></Script>
+       
             <div className={`${styles['footer-all']}`}>
 
                 <div className={`${styles['footer']}`}>
@@ -34,9 +40,10 @@ export default function footer() {
                             <Row>
 
                                 <Col md={3}>
+                                    <div></div>
                                     <h4>Products</h4>
-                                    <ul>
-                                        <li><a href="/enterprise_sms">Enterprise sms</a></li>
+                                    <ul >
+                                        <li className='font_family'><a href="/enterprise_sms" className='font_family'>Enterprise sms</a></li>
                                         <li><a href="/smart_url_tracking">Smart url tracking</a></li>
                                         <li><a href="/cloud-telephony-ai-autodialer">Cloud telephony-ai-autodialer</a></li>
                                         <li><a  href="/missed_call_service">Missed call</a></li>
@@ -51,7 +58,7 @@ export default function footer() {
                                 <h4>Solutions</h4>
                                     <Row>
                                     
-                                        <Col md={4}>
+                                        <Col md={5}>
                                         <ul className='margin_top_a'>
                                         <li ><a href="/advertising_agencies">Advertising agencies</a></li>
                                         <li><a href="/automobiles_solutions">Automobiles</a></li>
