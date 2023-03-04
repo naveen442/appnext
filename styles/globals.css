@@ -273,14 +273,14 @@ margin-bottom: -2px !important;
   background-color: #555;
 }			
 .styles-module_whatsappButton__tVits {
-  width: 31px !important;
-  height: 38px !important;
+  width: 36px !important;
+  height: 36px !important;
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
   position: fixed;
   bottom: 13rem !important;
-  right: 27px !important;
+  right: 24px !important;
   /* left: 85rem; */
   cursor: pointer !important;
   background-color: #25d366 !important;
@@ -381,14 +381,14 @@ margin-bottom: -2px !important;
   transition:all 0.8s ease-in-out;
 }
 .twitter img {
-  width:30px;
+  width:36px;
   margin-top: -70px;
 }
 .insta img{
-  width:30px;
+  width:36px;
 }
 .facebook img {
-  width:30px;
+  width:36px;
   margin-top: -40px;
 }
 .wtsapp{
@@ -401,8 +401,8 @@ margin-bottom: -2px !important;
   margin-top: -40px;
 }
 .Twitter1{
-  width:33px;
-  height:33px;
+  width:36px;
+  height:36px;
   margin-top: -20px;
 }
 .insta img{
@@ -423,4 +423,26 @@ margin-bottom: -2px !important;
   position: absolute;
   box-shadow: 0 0 0 0 rgb(37 211 101 / 0%);
   animation: styles-module__pulse__BJkE8  infinite !important;
+}
+.Footer_footer__Tl1eP ul {
+  padding-left: 0px !important;
+  list-style-type: none;
+  color: white;
+font-family: 'Poppins', sans-serif;
+}
+.Footer_menu__JX64D a {
+  padding: 0px 20px;
+  text-decoration: none;
+  color: white;
+  border-right: 2px solid #ffff;
+  font-size: 13px;
+  transition: 0.5s;
+  font-family: 'Poppins', sans-serif;
+}
+.Footer_copyright__0_Me0 {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 0px !important;
+  font-family: 'Poppins', sans-serif;
 }

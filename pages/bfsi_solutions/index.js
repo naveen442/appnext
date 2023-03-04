@@ -158,7 +158,7 @@ const Bfsi = (props) => {
                  allowEsc
                  allowClickAway
                  notification
-                //  notificationSound
+                 notificationSound
                  avatar="./assets/nettyfish.png"
 
       />

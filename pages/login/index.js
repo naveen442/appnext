@@ -3,20 +3,17 @@ import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
 
 import Button from "react-bootstrap/Button";
+import { useRouter } from 'next/navigation';
 
 // import "./Login.css";
 
 const Login=() =>{
-
+  const router = useRouter();
   const [email, setEmail] = useState("");
 
   const [password, setPassword] = useState("");
 
-  function validateForm() {
-
-    return email.length > 0 && password.length > 0;
-
-  }
+ 
 
   function handleSubmit(event) {
 
@@ -27,7 +24,7 @@ const Login=() =>{
   return (
 
     <div className="Login container  loginpage ">
-
+         {console.log(email,password)}
       <Form onSubmit={handleSubmit} className="my-5">
 
         <Form.Group size="lg" controlId="email" >
@@ -64,7 +61,7 @@ const Login=() =>{
 
         </Form.Group>
 
-        <Button block size="lg" type="submit"  className="margin_left my-2" disabled={!validateForm()}>
+        <Button block size="lg" type="submit"  className="margin_left my-2" onClick={() => router.push('/dashboard')}>
 
           Login
 

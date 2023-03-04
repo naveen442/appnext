@@ -12,7 +12,7 @@ import Script from "next/script"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Card, Grid, Text, Link } from "@nextui-org/react";
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import img7 from '../public/assets/nettyfish.png';
 import AOS from 'aos';
 
@@ -122,6 +122,35 @@ const myLoader = ({ src, width, quality }) => {
 
 
 function Home() {
+    const [isBrowser, setIsBrowser] = useState(false);
+    const showChatbotPopup = () => {
+        if (typeof window !== 'undefined' && window.wacto) {
+          window.wacto.open();
+        }
+      };
+    useEffect(() => {
+        setIsBrowser(true);
+      }, []);
+    
+      useEffect(() => {
+        if (isBrowser) {
+          const script = document.createElement('script');
+          script.async = true;
+          script.defer = true;
+          script.type = 'text/javascript';
+          script.src = 'https://app.wacto.in/static/js/widget.js?config=' + encodeURIComponent(JSON.stringify({
+            bot_key: '26493f2dc1864025',
+            welcome_msg: true,
+            branding_key: 'wacto',
+            server: 'https://app.wacto.in',
+            e: 'p'
+          }));
+          document.head.appendChild(script);
+        }
+      }, [isBrowser]);
+   
+
+   
 //    const wacto=(e,t,a)=>{
 //     var c=e.head||e.getElementsByTagName("head")[0],n=e.createElement("script");n.async=!0,n.defer=!0, n.type="text/javascript",n.src=t+"/static/js/widget.js?config="+JSON.stringify(a),c.appendChild(n)
 //     document,"https://app.wacto.in",{bot_key:"26493f2dc1864025",welcome_msg:true,branding_key:"wacto",server:"https://app.wacto.in",e:"p" }
@@ -132,11 +161,15 @@ function Home() {
             duration: 2000
         })
     }, [])
-
+   
+    
     return (
         <>
            
             <Head>
+            <Script strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `!function(e,t,a){var c=e.head||e.getElementsByTagName("head")[0],n=e.createElement("script");n.async=!0,n.defer=!0, n.type="text/javascript",n.src=t+"/static/js/widget.js?config="+JSON.stringify(a),c.appendChild(n)}(document,"https://app.wacto.in",{bot_key:"26493f2dc1864025",welcome_msg:true,branding_key:"wacto",server:"https://app.wacto.in",e:"p" })`.replace(/[\u00A0-\u9999<>\&]/gim, function(i) {
+  return '&#'+i.charCodeAt(0)+';';
+})}} />
             <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon.png"/>
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
@@ -160,7 +193,7 @@ function Home() {
 
         
             <div>
-
+          
 
 
                 <div className={styles.banner}>
@@ -1841,8 +1874,10 @@ these businesses to automate their customer interactions and turn conversations 
                                      avatar="./assets/nettyfish.png"
                     
                           /></li>
-         <li className=""><a href="/Wactochatbot" target="_blank" >
+         <li className=""><a   onClick={ showChatbotPopup} 
+ target="_blank" >
                                             <Image
+                                            onClick={ showChatbotPopup} 
                                         className="Twitter1"
                                                 src="/assets/wacto.png"
                                                 alt="Picture of the author"
