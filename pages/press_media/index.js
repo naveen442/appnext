@@ -147,34 +147,41 @@ const PressMedia = (props) => {
             </div>
           </div>
         </Container>
-        <a  href="https://app.wacto.in/admin/login" target="_blank" className="float1">
+        <div className="sticky-social">
+  <ul className="social">
+    <li className="insta"><a href="https://www.instagram.com/nettyfishsolutions/" target="_blank"><img src="./assets/insta1.png"/></a></li>
+        <li className="facebook"><a href="https://www.facebook.com/nettyfishsolutions" target="_blank"><img src="./assets/face1.png"/></a></li>
+      <li className="twitter"><a href="https://twitter.com/Nettyfish_offic" target="_blank"><img src="./assets/twit1.png"/></a></li>
+      <li   className="twitter12"><FloatingWhatsApp
+                                   
+                                     phoneNumber=" 8608666111"
+                                     accountName="Nettyfish"
+                                     allowEsc
+                                     allowClickAway
+                                     notification
+                                     notificationSound
+                                     avatar="./assets/nettyfish.png"
+                    
+                          /></li>
+         <li className=""><a   
+ target="_blank" >
                                             <Image
-                                            className="my-float1"
-                                            
+                                           
+                                        className="Twitter1"
                                                 src="/assets/wacto.png"
                                                 alt="Picture of the author"
                                                 width={60}
                                                 height={60}
                                             />
                                             </a>
+                                            </li>
+                                           {/* <li className="wtsapp"><a href="https://api.whatsapp.com/send?phone=8608666111&"  target="_blank"><img src="./assets/Whats1.png"/></a>
+</li> */}
 
 
-                
-               <FloatingWhatsApp
-                 phoneNumber=" 8608666111"
-                 accountName="Nettyfish"
-                 allowEsc
-                 allowClickAway
-                 notification
-                 notificationSound
-                 avatar="./assets/nettyfish.png"
-
-      />
-      <div class="sticky-icon">
-   <a href="https://www.instagram.com/nettyfishsolutions/ " className="Instagram"><i className="fab fa-instagram"></i> Instagram </a>
-   <a href="https://www.facebook.com/nettyfishsolutions" className="Facebook"><i className="fab fa-facebook-f"> </i> Facebook </a>
-   <a href="https://twitter.com/Nettyfish_offic" className="Twitter"><i className="fab fa-twitter"> </i> Twitter </a>   
-</div>
+    </ul>
+   
+  </div>
       </div>
     </section>
   );

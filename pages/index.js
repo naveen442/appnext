@@ -1860,9 +1860,9 @@ these businesses to automate their customer interactions and turn conversations 
                 </Container>
 <div className="sticky-social">
   <ul className="social">
-    <li className="insta"><a href="https://www.instagram.com/nettyfishsolutions/ "><img src="./assets/insta1.png"/></a></li>
-        <li className="facebook"><a href="https://www.facebook.com/nettyfishsolutions"><img src="./assets/face1.png"/></a></li>
-      <li className="twitter"><a href="https://twitter.com/Nettyfish_offic" ><img src="./assets/twit1.png"/></a></li>
+    <li className="insta"><a href="https://www.instagram.com/nettyfishsolutions/" target="_blank"><img src="./assets/insta1.png"/></a></li>
+        <li className="facebook"><a href="https://www.facebook.com/nettyfishsolutions" target="_blank"><img src="./assets/face1.png"/></a></li>
+      <li className="twitter"><a href="https://twitter.com/Nettyfish_offic" target="_blank"><img src="./assets/twit1.png"/></a></li>
       <li   className="twitter12"><FloatingWhatsApp
                                    
                                      phoneNumber=" 8608666111"

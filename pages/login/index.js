@@ -20,7 +20,7 @@ const Login=() =>{
   }, {
     withCredentials: true
   }).then((res)=>console.log(res)).catch((err)=>console.log(err));
-  router.push('/dashboard');
+  router.push('/dashboard')
  }
 
   function handleSubmit(event) {
