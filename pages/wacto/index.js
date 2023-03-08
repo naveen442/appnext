@@ -11,7 +11,9 @@ const Wacto = (props) => {
   return (
     <section>
       <Head>
-        <title>WACTO -Omnichannel </title>
+        <title>Online AI Chatbot For Customer Service in India | Nettyfish Solution </title>
+        <meta name="description" content="Nettyfish Solutions is a digital product development consultancy that provides end-to-end solutions for your business."/>
+
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
           rel="stylesheet"
@@ -405,7 +407,7 @@ const Wacto = (props) => {
                                      avatar="./assets/nettyfish.png"
                     
                           /></li>
-         <li className=""><a   
+         {/* <li className=""><a   
  target="_blank" >
                                             <Image
                                            
@@ -416,7 +418,7 @@ const Wacto = (props) => {
                                                 height={60}
                                             />
                                             </a>
-                                            </li>
+                                            </li> */}
                                            {/* <li className="wtsapp"><a href="https://api.whatsapp.com/send?phone=8608666111&"  target="_blank"><img src="./assets/Whats1.png"/></a>
 </li> */}
 

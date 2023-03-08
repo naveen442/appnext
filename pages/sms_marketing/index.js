@@ -357,7 +357,7 @@ const Marketing = (props) => {
                                      avatar="./assets/nettyfish.png"
                     
                           /></li>
-         <li className=""><a   
+         {/* <li className=""><a   
  target="_blank" >
                                             <Image
                                            
@@ -368,7 +368,7 @@ const Marketing = (props) => {
                                                 height={60}
                                             />
                                             </a>
-                                            </li>
+                                            </li> */}
                                            {/* <li className="wtsapp"><a href="https://api.whatsapp.com/send?phone=8608666111&"  target="_blank"><img src="./assets/Whats1.png"/></a>
 </li> */}
 
