@@ -278,8 +278,8 @@ margin-bottom: -2px !important;
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
-  position: fixed;
-  bottom: 13rem !important;
+  position: fixed !important;
+  bottom: 207px !important;
   right: 24px !important;
   /* left: 85rem; */
   cursor: pointer !important;
@@ -288,7 +288,7 @@ margin-bottom: -2px !important;
   -webkit-user-select: none !important;
   user-select: none !important;
   box-shadow: 0px 4px 10px 0px rgb(0 0 0 / 15%) !important;
-  z-index: 9998 !important;
+  z-index: 9999 !important;
 }
 .styles-module_whatsappChatBox__MdQ5U {
   display: flex;
@@ -360,7 +360,7 @@ margin-bottom: -2px !important;
   background-color: #d5cdcd;
     padding: 0px 0px;
     border-radius: 36px;
-    height: 218px;
+    height:220px;
 
 }
 .social li{
@@ -408,12 +408,7 @@ margin-bottom: -2px !important;
 .insta img{
   margin-top:-10px ;
 }
-.twitter12{
-  background-color: red !important;
-  margin-left: 200px;
-  position: absolute;
-  left:200px;
-}
+
 .styles-module_whatsappButton__tVits:after {
   content: '';
   border-color: inherit;
@@ -446,3 +441,139 @@ font-family: 'Poppins', sans-serif;
   margin-bottom: 0px !important;
   font-family: 'Poppins', sans-serif;
 }
+.Home_card_head_hover__bjZRo{
+  font-weight:600 !important;
+}
+.book_img{
+  width:200px;
+  height:300px;
+  object-fit:cover;
+  background-color: aquamarine;
+}
+.delete{
+  border:none;
+  padding:3px 6px;
+  background-color:white;
+  cursor: pointer;
+}
+.update{
+  border:none;
+  padding:3px 6px;
+  background-color: white;
+  cursor: pointer;
+}
+.formupdate{
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+  margin-left: 500px;
+}
+.updateinput{
+  width:50%;
+  padding:10px;
+  border:1px solid grey;
+ margin-bottom: 20px !important;
+}
+.formadd{
+  display: flex;
+  flex-direction: column;
+ width: 50%;
+margin-left: 500px;
+margin-bottom: 20px !important;
+}
+.pdf img{
+  width:36px;
+  margin-top:-20px;
+}
+ @media(min-width:320px) and (max-width:567px){
+  .styles-module_whatsappButton__tVits {
+    width: 36px !important;
+    height: 36px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: fixed !important;
+    bottom: 207px !important;
+    right: 24px !important;
+    /* left: 85rem; */
+    cursor: pointer !important;
+    background-color: #25d366 !important;
+    border-radius: 50% !important;
+    -webkit-user-select: none !important;
+    user-select: none !important;
+    box-shadow: 0px 4px 10px 0px rgb(0 0 0 / 15%) !important;
+    z-index: 9999 !important;
+  }
+  .sticky-social {   
+    top: 289px;   
+}
+ }
+ @media(min-width:568px) and (max-width:768px){
+  .styles-module_whatsappButton__tVits {
+    width: 36px !important;
+    height: 36px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: fixed !important;
+    bottom: 207px !important;
+    right: 24px !important;
+    /* left: 85rem; */
+    cursor: pointer !important;
+    background-color: #25d366 !important;
+    border-radius: 50% !important;
+    -webkit-user-select: none !important;
+    user-select: none !important;
+    box-shadow: 0px 4px 10px 0px rgb(0 0 0 / 15%) !important;
+    z-index: 9999 !important;
+  }
+  .sticky-social {   
+    top: 289px;   
+}
+ }
+ @media(min-width:769px) and (max-width:992px){
+  .styles-module_whatsappButton__tVits {
+    width: 36px !important;
+    height: 36px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: fixed !important;
+    bottom: 207px !important;
+    right: 24px !important;
+    /* left: 85rem; */
+    cursor: pointer !important;
+    background-color: #25d366 !important;
+    border-radius: 50% !important;
+    -webkit-user-select: none !important;
+    user-select: none !important;
+    box-shadow: 0px 4px 10px 0px rgb(0 0 0 / 15%) !important;
+    z-index: 9999 !important;
+  }
+  .sticky-social {   
+    top: 289px;   
+}
+ }
+ @media(min-width:993px) and (max-width:1200px){
+  .styles-module_whatsappButton__tVits {
+    width: 36px !important;
+    height: 36px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: fixed !important;
+    bottom: 207px !important;
+    right: 24px !important;
+    /* left: 85rem; */
+    cursor: pointer !important;
+    background-color: #25d366 !important;
+    border-radius: 50% !important;
+    -webkit-user-select: none !important;
+    user-select: none !important;
+    box-shadow: 0px 4px 10px 0px rgb(0 0 0 / 15%) !important;
+    z-index: 9999 !important;
+  }
+    .sticky-social {   
+    top: 289px;   
+}
+ }

@@ -167,6 +167,16 @@ function Home() {
         <>
            
             <Head>
+            {/* <!-- Google Tag Manager --> */}
+<script>();</script>
+<Script strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WD82WBQ'`.replace(/[\u00A0-\u9999<>\&]/gim, function(i) {
+  return '&#'+i.charCodeAt(0)+';';
+})}} />
+{/* <!-- End Google Tag Manager --> */}
             <Script strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `!function(e,t,a){var c=e.head||e.getElementsByTagName("head")[0],n=e.createElement("script");n.async=!0,n.defer=!0, n.type="text/javascript",n.src=t+"/static/js/widget.js?config="+JSON.stringify(a),c.appendChild(n)}(document,"https://app.wacto.in",{bot_key:"26493f2dc1864025",welcome_msg:true,branding_key:"wacto",server:"https://app.wacto.in",e:"p" })`.replace(/[\u00A0-\u9999<>\&]/gim, function(i) {
   return '&#'+i.charCodeAt(0)+';';
 })}} />
@@ -177,9 +187,11 @@ function Home() {
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"/>
 <meta name="msapplication-TileColor" content="#da532c"/>
 <meta name="theme-color" content="#ffffff"/>
+<meta name="description" content="Nettyfish Solutions is India's leading telecom software Company provider, simplifying customer service and operations with our tailor-made solutions. "/>
             <link rel="shortcut icon" href="/favicon.ico"/>
 <link rel="icon" type="image/gif" href="favicon/animated_favicon1.gif"/>
-                <title>Nettyfish private limited</title>
+                <title>Best Telecom Software Company in India | Nettyfish Solution </title>
+              
                 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossOrigin="anonymous"></link>
                 
                 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></link>
@@ -228,7 +240,7 @@ function Home() {
                                         <div style={{ textAlign: "center", textAlign: "center" }}>
                                             <Image
                                                 loader={myLoader}
-                                                src="/assets/home_page_slider_bulk_sms_services_1.png"
+                                                src="/assets/slider_1.png"
                                                 alt="Picture of the author"
                                                 width={400}
                                                 height={400}
@@ -267,7 +279,7 @@ function Home() {
                                         <div style={{ textAlign: "center", textAlign: "center" }}>
                                             <Image
                                                 loader={myLoader}
-                                                src="/assets/home_page_slider_digital_marketing_1.png"
+                                                src="/assets/slider_2.png"
                                                 alt="Picture of the author"
                                                 width={550}
                                                 height={400}
@@ -305,7 +317,7 @@ function Home() {
                                         <div style={{ textAlign: "center", textAlign: "center" }}>
                                             <Image
                                                 loader={myLoader}
-                                                src="/assets/home_page_slider_wacto_1.png"
+                                                src="/assets/slider_3.png"
                                                 alt="Picture of the author"
                                                 width={550}
                                                 height={400}
@@ -1059,7 +1071,7 @@ function Home() {
                                         <Col xs={12} sm={12 }md={12} lg={12} xl={12}>
                                             <Grid.Container>
                                                 <Grid xs={12} className="justify-content-center" >
-                                                    <Text h4 css={{ mt:"$8" }} >
+                                                    <Text h4 css={{ mt:"$8" }} className={`${styles['card_head_hover']}`}>
                                                         Titan
                                                     </Text>
                                                 </Grid>
@@ -1863,8 +1875,9 @@ these businesses to automate their customer interactions and turn conversations 
     <li className="insta"><a href="https://www.instagram.com/nettyfishsolutions/" target="_blank"><img src="./assets/insta1.png"/></a></li>
         <li className="facebook"><a href="https://www.facebook.com/nettyfishsolutions" target="_blank"><img src="./assets/face1.png"/></a></li>
       <li className="twitter"><a href="https://twitter.com/Nettyfish_offic" target="_blank" ><img src="./assets/twit1.png"/></a></li>
-      <li   className="twitter12"><FloatingWhatsApp
-                                   
+      <li className="pdf"><a href="https://www.nettyfish.in/NF_Services.pdf" target="_blank" ><img src="./assets/pdf-6.png"/></a></li>
+      <li   className="pdf"><FloatingWhatsApp
+                                  
                                      phoneNumber=" 8608666111"
                                      accountName="Nettyfish"
                                      allowEsc
@@ -1874,7 +1887,7 @@ these businesses to automate their customer interactions and turn conversations 
                                      avatar="./assets/nettyfish.png"
                     
                           /></li>
-         <li className=""><a   onClick={ showChatbotPopup} 
+         {/* <li className=""><a   onClick={ showChatbotPopup} 
  target="_blank" >
                                             <Image
                                             onClick={ showChatbotPopup} 
@@ -1885,7 +1898,7 @@ these businesses to automate their customer interactions and turn conversations 
                                                 height={60}
                                             />
                                             </a>
-                                            </li>
+                                            </li> */}
                                            {/* <li className="wtsapp"><a href="https://api.whatsapp.com/send?phone=8608666111&"  target="_blank"><img src="./assets/Whats1.png"/></a>
 </li> */}
 

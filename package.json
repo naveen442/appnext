@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "server":"nodemon server/index.js"
+    "server": "nodemon server/index.js"
   },
   "dependencies": {
     "@emotion/styled": "^11.10.5",
@@ -27,6 +27,7 @@
     "express-session": "^1.17.3",
     "mdb-react-ui-kit": "^5.1.0",
     "mysql": "^2.18.1",
+    "mysql2": "^3.2.0",
     "next": "13.1.6",
     "nodemon": "^2.0.21",
     "passport": "^0.6.0",
