@@ -280,6 +280,11 @@ margin-bottom: -2px !important;
   align-items: center !important;
   position: fixed;
   bottom: 120px !important;
+<<<<<<< HEAD
+=======
+  position: fixed !important;
+  bottom: 207px !important;
+>>>>>>> ba190e011319ccc35658486849e35f6a1bc3d37c
   right: 24px !important;
   cursor: pointer !important;
   background-color: #25d366 !important;

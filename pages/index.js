@@ -167,6 +167,16 @@ function Home() {
         <>
            
             <Head>
+            {/* <!-- Google Tag Manager --> */}
+<script>();</script>
+<Script strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WD82WBQ'`.replace(/[\u00A0-\u9999<>\&]/gim, function(i) {
+  return '&#'+i.charCodeAt(0)+';';
+})}} />
+{/* <!-- End Google Tag Manager --> */}
             <Script strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `!function(e,t,a){var c=e.head||e.getElementsByTagName("head")[0],n=e.createElement("script");n.async=!0,n.defer=!0, n.type="text/javascript",n.src=t+"/static/js/widget.js?config="+JSON.stringify(a),c.appendChild(n)}(document,"https://app.wacto.in",{bot_key:"26493f2dc1864025",welcome_msg:true,branding_key:"wacto",server:"https://app.wacto.in",e:"p" })`.replace(/[\u00A0-\u9999<>\&]/gim, function(i) {
   return '&#'+i.charCodeAt(0)+';';
 })}} />
@@ -1868,6 +1878,7 @@ these businesses to automate their customer interactions and turn conversations 
       <li className="insta"><a href="https://twitter.com/Nettyfish_offic" target="_blank" ><img src="./assets/twit1.png"/></a></li>     
       <li   className="insta whatsapp-csm"><FloatingWhatsApp
                                     className="twitter12"
+
                                      phoneNumber=" 8608666111"
                                      accountName="Nettyfish"
                                      allowEsc

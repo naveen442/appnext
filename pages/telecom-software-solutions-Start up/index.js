@@ -1,15 +1,15 @@
 import Link from "next/link";
 import Head from "next/head";
+import Script from "next/script"
 import { Container, Row, Col } from "react-bootstrap";
 import Image from "next/image";
-import Script from "next/script"
 import styles from "../../styles/ServicePage.module.css";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 import React, { useEffect, useState } from 'react';
 const myLoader = ({ src, width, quality }) => {
   return `${src}?w=${width}&q=${quality || 100}`;
 };
-const PressMedia = (props) => {
+const Startup = (props) => {
   const [isBrowser, setIsBrowser] = useState(false);
   const showChatbotPopup = () => {
       if (typeof window !== 'undefined' && window.wacto) {
@@ -36,15 +36,14 @@ const PressMedia = (props) => {
         document.head.appendChild(script);
       }
     }, [isBrowser]);
-
   return (
     <section>
       <Head>
       <Script strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `!function(e,t,a){var c=e.head||e.getElementsByTagName("head")[0],n=e.createElement("script");n.async=!0,n.defer=!0, n.type="text/javascript",n.src=t+"/static/js/widget.js?config="+JSON.stringify(a),c.appendChild(n)}(document,"https://app.wacto.in",{bot_key:"26493f2dc1864025",welcome_msg:true,branding_key:"wacto",server:"https://app.wacto.in",e:"p" })`.replace(/[\u00A0-\u9999<>\&]/gim, function(i) {
   return '&#'+i.charCodeAt(0)+';';
 })}} />
-        <title>Telecom Software Solutions -Press Media Industry </title>
-        <meta name="description" content="Nettyfish Solution is the best telecom software solution for Press Media. We provide a one-stop-shop for all your telecom & Software Automation needs."/>
+        <title>Telecom Software Solutions - Start up Industry | Nettyfish </title>
+        <meta name="description" content="Nettyfish Solution is the best telecom software solution for Start up Industry. We provide a one-stop-shop for all your telecom & Software Automation needs"/>
 
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -58,10 +57,10 @@ const PressMedia = (props) => {
           {/* <<<<<<<<<<<<<<<<<<<<< First Row >>>>>>>>>>>>>>>>>>>>>>>>>> */}
           <Row>
             <Col md={7} className="offset-2">
-              <p className={styles.title}>Press And Media</p>
+              <p className={styles.title}>Start-ups Solutions</p>
               <p className={styles.breadcrumb}>
               <a className={styles.home}  href="/">Home</a>{" "}
-                &gt;&gt; Press And Media
+                &gt;&gt; Start-ups Solutions
               </p>
             </Col>
           </Row>
@@ -73,7 +72,7 @@ const PressMedia = (props) => {
           <Col md={6} style={{ alignSelf: "center" }}>
             <Image
               loader={myLoader}
-              src="/assets/pressandmedia.png"
+              src="/assets/startup.png"
               alt="Picture of the author"
               height={300}
               width={500}
@@ -82,39 +81,26 @@ const PressMedia = (props) => {
               layout="responsive"
             />
           </Col>
+
           <Col
             md={6}
             className={styles.content}
             style={{ paddingBottom: "30px" }}
           >
-           <div className={styles.mt_150}>
-              <Image
-                loader={myLoader}
-                src="assets/Press1.png"
-                alt="Picture of the author"
-                width={380}
-                height={300}
-                priority
-              />
-            </div>
-            <h1 className={styles.heading}>Press/Media
-</h1>
-
+            <div className={styles.mt_150} style={{ marginTop: "70px" }}></div>
+            <h1 className={styles.heading}>Start-ups Solutions</h1>
             <p>
-              Nettyfish Chatbots for Press/Media industry enhance viewers
-              engagement with the customized user experience.
+              Simply establish an AI chatbot to your customer’s wish list such
+              as FB Messenger, WhatsApp, Website or live chat.
             </p>
-            <br />
-            <p>It can help Press/News industries by...</p>
-
-            <ol className={styles.ol}>
-              <li>Global Broadcasting</li>
-              <li>Engagement of viewers</li>
-              <li>Simple browsing</li>
-              <li>Customized alerts</li>
-              <li>Check on contents</li>
-              <li>Registration for events</li>
-            </ol>
+            <p>
+              By setting up WhatsApp chatbot you can minimize the work load on
+              your customer support team through automating monotonous work.
+            </p>
+            <p>
+              Let your chatbot do the reappearing jobs so that your team members
+              can focus on chats that really means so much.
+            </p>
           </Col>
         </Row>
       </Container>
@@ -124,9 +110,11 @@ const PressMedia = (props) => {
         <Container>
           <Row>
             <Col md={12}>
-              <h1 className={styles.heading}>Media/News Chatbot Solutions</h1>
+              <h1 className={styles.heading}>
+                Start-Up Solutions AI - Auto whatsapp Chatbot
+              </h1>
 
-              <p className={styles.pera}>Media Solutions</p>
+              <p className={styles.pera}>Start-up WhatsApp Chatbot</p>
             </Col>
           </Row>
 
@@ -137,7 +125,7 @@ const PressMedia = (props) => {
                   <Col md={4} style={{ alignSelf: "center" }}>
                     <Image
                       loader={myLoader}
-                      src="/assets/press.gif"
+                      src="/assets/1652528287_fkld service.gif"
                       alt="Picture of the author"
                       width={300}
                       height={550}
@@ -146,34 +134,33 @@ const PressMedia = (props) => {
                       layout="responsive"
                     />
                   </Col>
-                  <Col md={8} style={{ alignSelf: "center" }}>
+                  <Col md={8}>
                     {/* <h2 className={styles.card_heading}>Benefits of IVR</h2> */}
                     <p>
-                      Press And Media Chatbot automates all beauty, haircare and
-                      wellness related activities that saves the manual
-                      intervention. Press And Media virtual assistant uses
-                      Artificial Intelligence specifically designed to do the
-                      role of various Press And Media service providers
-                      especially in beauty, skin and haircare.
+                      Simply establish an AI chatbot to your customer’s wish
+                      list such as FB Messenger, WhatsApp, Website or live chat.
                     </p>
                     <br />
                     <p>
-                      Bot services are being very convenient with multiple
-                      services that allows the customer and the service provider
-                      to choose services as per their wish. They also use this
-                      platform to give announcements, offers, discounts and lot
-                      more.
+                      By setting up WhatsApp chatbot you can minimize the work
+                      load on your customer support team through automating
+                      monotonous work.
+                    </p>
+                    <p>
+                      Let your chatbot do the reappearing jobs so that your team
+                      members can focus on chats that really means so much.
                     </p>
                     <br />
                     <p className={styles.sub_content}>
-                      Media/News assistant is available 24x7 and it handles: :{" "}
+                      Following are features that start ups provides:{" "}
                     </p>
+
                     <ol className={styles.ol}>
-                      <li>Daily News update</li>
-                      <li>Trending</li>
-                      <li>World-wide update</li>
-                      <li>Subscriptions</li>
-                      <li>Favourite</li>
+                      <li> Profile</li>
+                      <li> Products and Services</li>
+                      <li>24/7 Availability</li>
+                      <li>Personalized interactions via chat or voice</li>
+                      <li>Availability of channels as per visitors</li>
                     </ol>
                   </Col>
                 </Row>
@@ -185,18 +172,18 @@ const PressMedia = (props) => {
   <ul className="social">
   <li className="insta pt-3"><a href="https://www.nettyfish.in/NF_Services.pdf" target="_blank" ><img  src="./assets/pdf_pdf.svg"/></a></li>
     <li className="insta"><a href="https://www.instagram.com/nettyfishsolutions/" target="_blank"><img src="./assets/insta1.png"/></a></li>
-<<<<<<< HEAD
+<<<<<<<< HEAD:pages/telecom-software-solutions-Startup/index.js
         <li className="insta"><a href="https://www.facebook.com/nettyfishsolutions" target="_blank"><img src="./assets/face1.png"/></a></li>
       <li className="insta"><a href="https://twitter.com/Nettyfish_offic" target="_blank" ><img src="./assets/twit1.png"/></a></li>     
       <li   className="insta whatsapp-csm"><FloatingWhatsApp
                                     className="twitter12"
-=======
+========
         <li className="facebook"><a href="https://www.facebook.com/nettyfishsolutions" target="_blank"><img src="./assets/face1.png"/></a></li>
       <li className="twitter"><a href="https://twitter.com/Nettyfish_offic" target="_blank"><img src="./assets/twit1.png"/></a></li>
       <li className="pdf"><a href="https://www.nettyfish.in/NF_Services.pdf" target="_blank" ><img src="./assets/pdf-6.png"/></a></li>
       <li   className="twitter12"><FloatingWhatsApp
                                    
->>>>>>> ba190e011319ccc35658486849e35f6a1bc3d37c
+>>>>>>>> ba190e011319ccc35658486849e35f6a1bc3d37c:pages/telecom-software-solutions-Start up/index.js
                                      phoneNumber=" 8608666111"
                                      accountName="Nettyfish"
                                      allowEsc
@@ -230,4 +217,4 @@ const PressMedia = (props) => {
   );
 };
 
-export default PressMedia;
+export default Startup;
